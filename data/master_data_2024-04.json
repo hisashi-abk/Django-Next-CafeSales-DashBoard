@@ -1,0 +1,214 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "ドリンク"
+    },
+    {
+      "id": 2,
+      "name": "サンドイッチ"
+    },
+    {
+      "id": 3,
+      "name": "ケーキ"
+    }
+  ],
+  "menu_items": [
+    {
+      "id": 1,
+      "name": "アメリカン",
+      "price": 380,
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "カフェラテ",
+      "price": 420,
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "カプチーノ",
+      "price": 420,
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "抹茶ラテ",
+      "price": 450,
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "name": "エスプレッソ",
+      "price": 300,
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "name": "アイスコーヒー",
+      "price": 350,
+      "category_id": 1
+    },
+    {
+      "id": 7,
+      "name": "カフェモカ",
+      "price": 450,
+      "category_id": 1
+    },
+    {
+      "id": 8,
+      "name": "ほうじ茶ラテ",
+      "price": 430,
+      "category_id": 1
+    },
+    {
+      "id": 9,
+      "name": "ロイヤルミルクティー",
+      "price": 400,
+      "category_id": 1
+    },
+    {
+      "id": 10,
+      "name": "オレンジジュース",
+      "price": 380,
+      "category_id": 1
+    },
+    {
+      "id": 11,
+      "name": "ハムチーズ",
+      "price": 580,
+      "category_id": 2
+    },
+    {
+      "id": 12,
+      "name": "ツナサラダ",
+      "price": 520,
+      "category_id": 2
+    },
+    {
+      "id": 13,
+      "name": "エッグサラダ",
+      "price": 500,
+      "category_id": 2
+    },
+    {
+      "id": 14,
+      "name": "BLT",
+      "price": 600,
+      "category_id": 2
+    },
+    {
+      "id": 15,
+      "name": "アボカドチキン",
+      "price": 650,
+      "category_id": 2
+    },
+    {
+      "id": 16,
+      "name": "ベジタリアン",
+      "price": 550,
+      "category_id": 2
+    },
+    {
+      "id": 17,
+      "name": "ショートケーキ",
+      "price": 450,
+      "category_id": 3
+    },
+    {
+      "id": 18,
+      "name": "チョコレートケーキ",
+      "price": 480,
+      "category_id": 3
+    },
+    {
+      "id": 19,
+      "name": "チーズケーキ",
+      "price": 420,
+      "category_id": 3
+    },
+    {
+      "id": 20,
+      "name": "モンブラン",
+      "price": 500,
+      "category_id": 3
+    },
+    {
+      "id": 21,
+      "name": "ティラミス",
+      "price": 450,
+      "category_id": 3
+    },
+    {
+      "id": 22,
+      "name": "フルーツタルト",
+      "price": 480,
+      "category_id": 3
+    },
+    {
+      "id": 23,
+      "name": "ガトーショコラ",
+      "price": 460,
+      "category_id": 3
+    },
+    {
+      "id": 24,
+      "name": "レモンケーキ",
+      "price": 420,
+      "category_id": 3
+    }
+  ],
+  "genders": [
+    {
+      "id": 1,
+      "name": "男"
+    },
+    {
+      "id": 2,
+      "name": "女"
+    }
+  ],
+  "order_types": [
+    {
+      "id": 1,
+      "name": "for_here"
+    },
+    {
+      "id": 2,
+      "name": "takeout"
+    }
+  ],
+  "weather_types": [
+    {
+      "id": 1,
+      "name": "晴れ"
+    },
+    {
+      "id": 2,
+      "name": "曇り"
+    },
+    {
+      "id": 3,
+      "name": "雨"
+    }
+  ],
+  "time_slots": [
+    {
+      "id": 1,
+      "name": "モーニング"
+    },
+    {
+      "id": 2,
+      "name": "ランチ"
+    },
+    {
+      "id": 3,
+      "name": "ティータイム"
+    },
+    {
+      "id": 4,
+      "name": "平時"
+    }
+  ]
+}
