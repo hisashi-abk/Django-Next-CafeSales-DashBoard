@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "data",
+    "cafe_analytics",
     "corsheaders",
     "rest_framework",
 ]
@@ -92,6 +92,7 @@ DATABASES = {
         'PORT': os.getenv('MYSQL_DB_PORT', '3306'),
         "OPTIONS": {
             "charset": "utf8mb4",
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         },
     }
 }
@@ -140,3 +141,8 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+REST_FRAMEWORK = {
+    'DATETIME_FORMAT': '%Y-%m-%d %H:%M:%S',
+    'DATE_FORMAT': '%Y-%m-%d',
+}

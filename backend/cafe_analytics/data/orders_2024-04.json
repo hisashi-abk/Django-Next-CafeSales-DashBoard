@@ -1,0 +1,6802 @@
+[
+  {
+    "id": "20240401-001",
+    "timestamp": "2024-04-01 07:05:42",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240401-002",
+    "timestamp": "2024-04-01 07:25:42",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 60
+  },
+  {
+    "id": "20240401-003",
+    "timestamp": "2024-04-01 07:31:32",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240401-004",
+    "timestamp": "2024-04-01 07:58:47",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240401-005",
+    "timestamp": "2024-04-01 08:02:20",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 800,
+    "discount": 0
+  },
+  {
+    "id": "20240401-006",
+    "timestamp": "2024-04-01 08:19:35",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240401-007",
+    "timestamp": "2024-04-01 08:37:31",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 200
+  },
+  {
+    "id": "20240401-008",
+    "timestamp": "2024-04-01 08:58:13",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240401-016",
+    "timestamp": "2024-04-01 11:48:33",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240401-017",
+    "timestamp": "2024-04-01 12:04:34",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 290
+  },
+  {
+    "id": "20240401-018",
+    "timestamp": "2024-04-01 12:21:10",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 310
+  },
+  {
+    "id": "20240401-019",
+    "timestamp": "2024-04-01 12:40:23",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 100
+  },
+  {
+    "id": "20240401-020",
+    "timestamp": "2024-04-01 12:56:17",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240401-021",
+    "timestamp": "2024-04-01 13:00:21",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 90
+  },
+  {
+    "id": "20240401-022",
+    "timestamp": "2024-04-01 13:30:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 170
+  },
+  {
+    "id": "20240401-023",
+    "timestamp": "2024-04-01 15:12:43",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1300,
+    "discount": 0
+  },
+  {
+    "id": "20240401-024",
+    "timestamp": "2024-04-01 15:28:56",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1000,
+    "discount": 0
+  },
+  {
+    "id": "20240401-025",
+    "timestamp": "2024-04-01 15:44:29",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1340,
+    "discount": 0
+  },
+  {
+    "id": "20240401-026",
+    "timestamp": "2024-04-01 15:58:27",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240401-009",
+    "timestamp": "2024-04-01 09:13:28",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 980,
+    "discount": 0
+  },
+  {
+    "id": "20240401-010",
+    "timestamp": "2024-04-01 09:20:27",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1450,
+    "discount": 0
+  },
+  {
+    "id": "20240401-011",
+    "timestamp": "2024-04-01 09:42:35",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240401-012",
+    "timestamp": "2024-04-01 09:51:58",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1400,
+    "discount": 0
+  },
+  {
+    "id": "20240401-013",
+    "timestamp": "2024-04-01 10:08:28",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1270,
+    "discount": 0
+  },
+  {
+    "id": "20240401-014",
+    "timestamp": "2024-04-01 10:19:40",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1840,
+    "discount": 0
+  },
+  {
+    "id": "20240401-015",
+    "timestamp": "2024-04-01 10:44:01",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 840,
+    "discount": 0
+  },
+  {
+    "id": "20240402-001",
+    "timestamp": "2024-04-02 07:15:04",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 200
+  },
+  {
+    "id": "20240402-002",
+    "timestamp": "2024-04-02 07:15:38",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240402-003",
+    "timestamp": "2024-04-02 07:40:38",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240402-004",
+    "timestamp": "2024-04-02 07:58:45",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240402-005",
+    "timestamp": "2024-04-02 08:01:53",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240402-006",
+    "timestamp": "2024-04-02 08:28:55",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240402-007",
+    "timestamp": "2024-04-02 08:43:28",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 820,
+    "discount": 0
+  },
+  {
+    "id": "20240402-008",
+    "timestamp": "2024-04-02 08:50:05",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240402-012",
+    "timestamp": "2024-04-02 11:53:19",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240402-013",
+    "timestamp": "2024-04-02 12:01:04",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240402-014",
+    "timestamp": "2024-04-02 12:23:46",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240402-015",
+    "timestamp": "2024-04-02 12:43:52",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 0
+  },
+  {
+    "id": "20240402-016",
+    "timestamp": "2024-04-02 12:59:32",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 300
+  },
+  {
+    "id": "20240402-017",
+    "timestamp": "2024-04-02 13:05:30",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240402-018",
+    "timestamp": "2024-04-02 13:26:24",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 210
+  },
+  {
+    "id": "20240402-019",
+    "timestamp": "2024-04-02 15:01:43",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1000,
+    "discount": 0
+  },
+  {
+    "id": "20240402-020",
+    "timestamp": "2024-04-02 15:29:27",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 750,
+    "discount": 0
+  },
+  {
+    "id": "20240402-021",
+    "timestamp": "2024-04-02 15:32:50",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 840,
+    "discount": 0
+  },
+  {
+    "id": "20240402-022",
+    "timestamp": "2024-04-02 15:58:55",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1500,
+    "discount": 0
+  },
+  {
+    "id": "20240402-009",
+    "timestamp": "2024-04-02 09:06:20",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1470,
+    "discount": 0
+  },
+  {
+    "id": "20240402-010",
+    "timestamp": "2024-04-02 09:21:49",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 350,
+    "discount": 0
+  },
+  {
+    "id": "20240402-011",
+    "timestamp": "2024-04-02 09:44:09",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240403-001",
+    "timestamp": "2024-04-03 07:12:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240403-002",
+    "timestamp": "2024-04-03 07:21:12",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240403-003",
+    "timestamp": "2024-04-03 07:40:57",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 180
+  },
+  {
+    "id": "20240403-004",
+    "timestamp": "2024-04-03 07:51:37",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240403-005",
+    "timestamp": "2024-04-03 08:04:16",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240403-006",
+    "timestamp": "2024-04-03 08:27:37",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240403-007",
+    "timestamp": "2024-04-03 08:44:04",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240403-008",
+    "timestamp": "2024-04-03 08:54:49",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240403-012",
+    "timestamp": "2024-04-03 11:55:06",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 350
+  },
+  {
+    "id": "20240403-013",
+    "timestamp": "2024-04-03 12:13:03",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 270
+  },
+  {
+    "id": "20240403-014",
+    "timestamp": "2024-04-03 12:27:12",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240403-015",
+    "timestamp": "2024-04-03 12:31:12",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240403-016",
+    "timestamp": "2024-04-03 12:47:17",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1060,
+    "discount": 0
+  },
+  {
+    "id": "20240403-017",
+    "timestamp": "2024-04-03 13:02:20",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 80
+  },
+  {
+    "id": "20240403-018",
+    "timestamp": "2024-04-03 13:23:18",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240403-019",
+    "timestamp": "2024-04-03 15:11:32",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240403-020",
+    "timestamp": "2024-04-03 15:25:45",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 860,
+    "discount": 0
+  },
+  {
+    "id": "20240403-021",
+    "timestamp": "2024-04-03 15:41:47",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1510,
+    "discount": 0
+  },
+  {
+    "id": "20240403-022",
+    "timestamp": "2024-04-03 15:49:43",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1030,
+    "discount": 0
+  },
+  {
+    "id": "20240403-009",
+    "timestamp": "2024-04-03 09:13:12",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 910,
+    "discount": 0
+  },
+  {
+    "id": "20240403-010",
+    "timestamp": "2024-04-03 09:25:00",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 350,
+    "discount": 0
+  },
+  {
+    "id": "20240403-011",
+    "timestamp": "2024-04-03 09:30:30",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240404-001",
+    "timestamp": "2024-04-04 07:15:38",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240404-002",
+    "timestamp": "2024-04-04 07:21:35",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240404-003",
+    "timestamp": "2024-04-04 07:44:57",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240404-004",
+    "timestamp": "2024-04-04 07:50:45",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 40
+  },
+  {
+    "id": "20240404-005",
+    "timestamp": "2024-04-04 08:09:47",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240404-006",
+    "timestamp": "2024-04-04 08:18:47",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240404-007",
+    "timestamp": "2024-04-04 08:37:01",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240404-008",
+    "timestamp": "2024-04-04 08:57:41",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240404-015",
+    "timestamp": "2024-04-04 11:48:17",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240404-016",
+    "timestamp": "2024-04-04 12:07:41",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 260
+  },
+  {
+    "id": "20240404-017",
+    "timestamp": "2024-04-04 12:19:22",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240404-018",
+    "timestamp": "2024-04-04 12:37:50",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240404-019",
+    "timestamp": "2024-04-04 12:54:15",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 160
+  },
+  {
+    "id": "20240404-020",
+    "timestamp": "2024-04-04 13:04:46",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240404-021",
+    "timestamp": "2024-04-04 13:15:17",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 310
+  },
+  {
+    "id": "20240404-022",
+    "timestamp": "2024-04-04 15:15:26",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 950,
+    "discount": 0
+  },
+  {
+    "id": "20240404-023",
+    "timestamp": "2024-04-04 15:24:25",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 800,
+    "discount": 0
+  },
+  {
+    "id": "20240404-024",
+    "timestamp": "2024-04-04 15:38:07",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1660,
+    "discount": 0
+  },
+  {
+    "id": "20240404-025",
+    "timestamp": "2024-04-04 15:51:13",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1300,
+    "discount": 0
+  },
+  {
+    "id": "20240404-009",
+    "timestamp": "2024-04-04 09:09:19",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240404-010",
+    "timestamp": "2024-04-04 09:19:42",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 910,
+    "discount": 0
+  },
+  {
+    "id": "20240404-011",
+    "timestamp": "2024-04-04 09:44:59",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240404-012",
+    "timestamp": "2024-04-04 09:56:48",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1700,
+    "discount": 0
+  },
+  {
+    "id": "20240404-013",
+    "timestamp": "2024-04-04 10:02:27",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 430,
+    "discount": 0
+  },
+  {
+    "id": "20240404-014",
+    "timestamp": "2024-04-04 10:16:19",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240405-001",
+    "timestamp": "2024-04-05 07:03:55",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240405-002",
+    "timestamp": "2024-04-05 07:17:19",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240405-003",
+    "timestamp": "2024-04-05 07:32:53",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 800,
+    "discount": 0
+  },
+  {
+    "id": "20240405-004",
+    "timestamp": "2024-04-05 08:00:13",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240405-005",
+    "timestamp": "2024-04-05 08:08:07",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240405-009",
+    "timestamp": "2024-04-05 11:55:17",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 2020,
+    "discount": 0
+  },
+  {
+    "id": "20240405-010",
+    "timestamp": "2024-04-05 12:12:42",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240405-011",
+    "timestamp": "2024-04-05 12:22:56",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 160
+  },
+  {
+    "id": "20240405-012",
+    "timestamp": "2024-04-05 12:31:37",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240405-013",
+    "timestamp": "2024-04-05 12:47:31",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240405-014",
+    "timestamp": "2024-04-05 13:02:30",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240405-015",
+    "timestamp": "2024-04-05 13:25:38",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240405-016",
+    "timestamp": "2024-04-05 15:04:32",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 2650,
+    "discount": 0
+  },
+  {
+    "id": "20240405-017",
+    "timestamp": "2024-04-05 15:19:02",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 720,
+    "discount": 0
+  },
+  {
+    "id": "20240405-018",
+    "timestamp": "2024-04-05 15:31:11",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 2280,
+    "discount": 0
+  },
+  {
+    "id": "20240405-019",
+    "timestamp": "2024-04-05 15:49:15",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240405-006",
+    "timestamp": "2024-04-05 09:04:14",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1440,
+    "discount": 0
+  },
+  {
+    "id": "20240405-007",
+    "timestamp": "2024-04-05 09:15:51",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1450,
+    "discount": 0
+  },
+  {
+    "id": "20240405-008",
+    "timestamp": "2024-04-05 09:41:52",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1510,
+    "discount": 0
+  },
+  {
+    "id": "20240406-001",
+    "timestamp": "2024-04-06 07:11:25",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240406-002",
+    "timestamp": "2024-04-06 07:23:04",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240406-003",
+    "timestamp": "2024-04-06 07:33:41",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240406-004",
+    "timestamp": "2024-04-06 08:00:27",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240406-005",
+    "timestamp": "2024-04-06 08:03:45",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240406-012",
+    "timestamp": "2024-04-06 11:50:17",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240406-013",
+    "timestamp": "2024-04-06 12:09:49",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240406-014",
+    "timestamp": "2024-04-06 12:19:51",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 300
+  },
+  {
+    "id": "20240406-015",
+    "timestamp": "2024-04-06 12:34:49",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240406-016",
+    "timestamp": "2024-04-06 12:57:52",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 360
+  },
+  {
+    "id": "20240406-017",
+    "timestamp": "2024-04-06 13:06:03",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 300
+  },
+  {
+    "id": "20240406-018",
+    "timestamp": "2024-04-06 13:28:00",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1450,
+    "discount": 0
+  },
+  {
+    "id": "20240406-019",
+    "timestamp": "2024-04-06 15:02:12",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1810,
+    "discount": 0
+  },
+  {
+    "id": "20240406-020",
+    "timestamp": "2024-04-06 15:24:27",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 300,
+    "discount": 0
+  },
+  {
+    "id": "20240406-021",
+    "timestamp": "2024-04-06 15:36:11",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 650,
+    "discount": 0
+  },
+  {
+    "id": "20240406-022",
+    "timestamp": "2024-04-06 15:58:46",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240406-006",
+    "timestamp": "2024-04-06 09:11:14",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 920,
+    "discount": 0
+  },
+  {
+    "id": "20240406-007",
+    "timestamp": "2024-04-06 09:17:11",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240406-008",
+    "timestamp": "2024-04-06 09:35:55",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240406-009",
+    "timestamp": "2024-04-06 09:52:27",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1250,
+    "discount": 0
+  },
+  {
+    "id": "20240406-010",
+    "timestamp": "2024-04-06 10:09:48",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1520,
+    "discount": 0
+  },
+  {
+    "id": "20240406-011",
+    "timestamp": "2024-04-06 10:19:04",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1510,
+    "discount": 0
+  },
+  {
+    "id": "20240407-001",
+    "timestamp": "2024-04-07 07:00:49",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240407-002",
+    "timestamp": "2024-04-07 07:27:14",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240407-003",
+    "timestamp": "2024-04-07 07:31:10",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240407-004",
+    "timestamp": "2024-04-07 07:59:51",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240407-005",
+    "timestamp": "2024-04-07 08:03:36",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240407-006",
+    "timestamp": "2024-04-07 08:15:41",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240407-007",
+    "timestamp": "2024-04-07 08:31:17",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240407-008",
+    "timestamp": "2024-04-07 08:54:26",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240407-013",
+    "timestamp": "2024-04-07 11:58:55",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 40
+  },
+  {
+    "id": "20240407-014",
+    "timestamp": "2024-04-07 12:13:11",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240407-015",
+    "timestamp": "2024-04-07 12:30:17",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240407-016",
+    "timestamp": "2024-04-07 12:36:54",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240407-017",
+    "timestamp": "2024-04-07 12:51:48",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240407-018",
+    "timestamp": "2024-04-07 13:06:37",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240407-019",
+    "timestamp": "2024-04-07 13:25:43",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 2450,
+    "discount": 0
+  },
+  {
+    "id": "20240407-020",
+    "timestamp": "2024-04-07 15:04:09",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 300,
+    "discount": 0
+  },
+  {
+    "id": "20240407-021",
+    "timestamp": "2024-04-07 15:28:42",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 300,
+    "discount": 0
+  },
+  {
+    "id": "20240407-009",
+    "timestamp": "2024-04-07 09:06:25",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 400,
+    "discount": 0
+  },
+  {
+    "id": "20240407-010",
+    "timestamp": "2024-04-07 09:27:15",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 770,
+    "discount": 0
+  },
+  {
+    "id": "20240407-011",
+    "timestamp": "2024-04-07 09:39:29",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1000,
+    "discount": 0
+  },
+  {
+    "id": "20240407-012",
+    "timestamp": "2024-04-07 09:48:00",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 350,
+    "discount": 0
+  },
+  {
+    "id": "20240408-001",
+    "timestamp": "2024-04-08 07:06:46",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240408-002",
+    "timestamp": "2024-04-08 07:21:28",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 170
+  },
+  {
+    "id": "20240408-003",
+    "timestamp": "2024-04-08 07:41:29",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 110
+  },
+  {
+    "id": "20240408-004",
+    "timestamp": "2024-04-08 07:52:41",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240408-005",
+    "timestamp": "2024-04-08 08:03:36",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240408-006",
+    "timestamp": "2024-04-08 08:21:02",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240408-007",
+    "timestamp": "2024-04-08 08:32:07",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240408-008",
+    "timestamp": "2024-04-08 08:49:24",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240408-010",
+    "timestamp": "2024-04-08 11:49:40",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 2210,
+    "discount": 0
+  },
+  {
+    "id": "20240408-011",
+    "timestamp": "2024-04-08 12:09:43",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1180,
+    "discount": 0
+  },
+  {
+    "id": "20240408-012",
+    "timestamp": "2024-04-08 12:21:22",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 160
+  },
+  {
+    "id": "20240408-013",
+    "timestamp": "2024-04-08 12:30:44",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1320,
+    "discount": 0
+  },
+  {
+    "id": "20240408-014",
+    "timestamp": "2024-04-08 12:54:22",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 840,
+    "discount": 0
+  },
+  {
+    "id": "20240408-015",
+    "timestamp": "2024-04-08 13:08:28",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240408-016",
+    "timestamp": "2024-04-08 13:22:09",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 270
+  },
+  {
+    "id": "20240408-017",
+    "timestamp": "2024-04-08 15:05:19",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 920,
+    "discount": 0
+  },
+  {
+    "id": "20240408-018",
+    "timestamp": "2024-04-08 15:15:58",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240408-019",
+    "timestamp": "2024-04-08 15:37:26",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1550,
+    "discount": 0
+  },
+  {
+    "id": "20240408-020",
+    "timestamp": "2024-04-08 15:53:04",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 430,
+    "discount": 0
+  },
+  {
+    "id": "20240408-009",
+    "timestamp": "2024-04-08 09:12:14",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240409-001",
+    "timestamp": "2024-04-09 07:11:01",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240409-002",
+    "timestamp": "2024-04-09 07:26:00",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 40
+  },
+  {
+    "id": "20240409-003",
+    "timestamp": "2024-04-09 07:38:03",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 200
+  },
+  {
+    "id": "20240409-004",
+    "timestamp": "2024-04-09 07:49:07",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240409-005",
+    "timestamp": "2024-04-09 08:14:30",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240409-009",
+    "timestamp": "2024-04-09 11:59:24",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 210
+  },
+  {
+    "id": "20240409-010",
+    "timestamp": "2024-04-09 12:08:42",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 190
+  },
+  {
+    "id": "20240409-011",
+    "timestamp": "2024-04-09 12:18:48",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240409-012",
+    "timestamp": "2024-04-09 12:32:07",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240409-013",
+    "timestamp": "2024-04-09 12:53:42",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240409-014",
+    "timestamp": "2024-04-09 13:13:06",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1840,
+    "discount": 0
+  },
+  {
+    "id": "20240409-015",
+    "timestamp": "2024-04-09 13:16:31",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 160
+  },
+  {
+    "id": "20240409-016",
+    "timestamp": "2024-04-09 15:12:22",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1530,
+    "discount": 0
+  },
+  {
+    "id": "20240409-017",
+    "timestamp": "2024-04-09 15:28:51",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1410,
+    "discount": 0
+  },
+  {
+    "id": "20240409-018",
+    "timestamp": "2024-04-09 15:33:31",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1420,
+    "discount": 0
+  },
+  {
+    "id": "20240409-019",
+    "timestamp": "2024-04-09 15:46:16",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 820,
+    "discount": 0
+  },
+  {
+    "id": "20240409-006",
+    "timestamp": "2024-04-09 09:09:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 830,
+    "discount": 0
+  },
+  {
+    "id": "20240409-007",
+    "timestamp": "2024-04-09 09:23:28",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240409-008",
+    "timestamp": "2024-04-09 09:43:25",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 830,
+    "discount": 0
+  },
+  {
+    "id": "20240410-001",
+    "timestamp": "2024-04-10 07:11:39",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 820,
+    "discount": 0
+  },
+  {
+    "id": "20240410-002",
+    "timestamp": "2024-04-10 07:21:37",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240410-003",
+    "timestamp": "2024-04-10 07:40:16",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240410-004",
+    "timestamp": "2024-04-10 07:51:20",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240410-005",
+    "timestamp": "2024-04-10 08:02:06",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240410-006",
+    "timestamp": "2024-04-10 08:17:13",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240410-012",
+    "timestamp": "2024-04-10 11:54:38",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 100
+  },
+  {
+    "id": "20240410-013",
+    "timestamp": "2024-04-10 12:09:48",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240410-014",
+    "timestamp": "2024-04-10 12:16:26",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240410-015",
+    "timestamp": "2024-04-10 12:33:48",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240410-016",
+    "timestamp": "2024-04-10 12:48:25",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 370
+  },
+  {
+    "id": "20240410-017",
+    "timestamp": "2024-04-10 13:03:34",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240410-018",
+    "timestamp": "2024-04-10 15:13:18",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 960,
+    "discount": 0
+  },
+  {
+    "id": "20240410-019",
+    "timestamp": "2024-04-10 15:17:18",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1460,
+    "discount": 0
+  },
+  {
+    "id": "20240410-020",
+    "timestamp": "2024-04-10 15:40:41",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240410-021",
+    "timestamp": "2024-04-10 15:49:34",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 950,
+    "discount": 0
+  },
+  {
+    "id": "20240410-007",
+    "timestamp": "2024-04-10 09:01:37",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1380,
+    "discount": 0
+  },
+  {
+    "id": "20240410-008",
+    "timestamp": "2024-04-10 09:26:50",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240410-009",
+    "timestamp": "2024-04-10 09:39:51",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1000,
+    "discount": 0
+  },
+  {
+    "id": "20240410-010",
+    "timestamp": "2024-04-10 09:50:08",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 830,
+    "discount": 0
+  },
+  {
+    "id": "20240410-011",
+    "timestamp": "2024-04-10 10:15:20",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240411-001",
+    "timestamp": "2024-04-11 07:11:05",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240411-002",
+    "timestamp": "2024-04-11 07:23:05",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240411-003",
+    "timestamp": "2024-04-11 07:31:59",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 60
+  },
+  {
+    "id": "20240411-004",
+    "timestamp": "2024-04-11 07:51:57",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240411-005",
+    "timestamp": "2024-04-11 08:03:42",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240411-006",
+    "timestamp": "2024-04-11 08:29:59",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240411-011",
+    "timestamp": "2024-04-11 11:56:16",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1410,
+    "discount": 0
+  },
+  {
+    "id": "20240411-012",
+    "timestamp": "2024-04-11 12:13:28",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 310
+  },
+  {
+    "id": "20240411-013",
+    "timestamp": "2024-04-11 12:25:02",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1360,
+    "discount": 0
+  },
+  {
+    "id": "20240411-014",
+    "timestamp": "2024-04-11 12:39:33",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 270
+  },
+  {
+    "id": "20240411-015",
+    "timestamp": "2024-04-11 12:59:51",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240411-016",
+    "timestamp": "2024-04-11 13:03:53",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240411-017",
+    "timestamp": "2024-04-11 13:16:59",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240411-018",
+    "timestamp": "2024-04-11 15:01:52",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 840,
+    "discount": 0
+  },
+  {
+    "id": "20240411-019",
+    "timestamp": "2024-04-11 15:29:02",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1010,
+    "discount": 0
+  },
+  {
+    "id": "20240411-020",
+    "timestamp": "2024-04-11 15:33:00",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 950,
+    "discount": 0
+  },
+  {
+    "id": "20240411-007",
+    "timestamp": "2024-04-11 09:10:15",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1400,
+    "discount": 0
+  },
+  {
+    "id": "20240411-008",
+    "timestamp": "2024-04-11 09:18:46",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 400,
+    "discount": 0
+  },
+  {
+    "id": "20240411-009",
+    "timestamp": "2024-04-11 09:34:18",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240411-010",
+    "timestamp": "2024-04-11 09:51:43",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240412-001",
+    "timestamp": "2024-04-12 07:06:06",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240412-002",
+    "timestamp": "2024-04-12 07:15:16",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240412-003",
+    "timestamp": "2024-04-12 07:41:57",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240412-004",
+    "timestamp": "2024-04-12 07:55:16",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240412-005",
+    "timestamp": "2024-04-12 08:01:00",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240412-006",
+    "timestamp": "2024-04-12 08:20:24",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240412-007",
+    "timestamp": "2024-04-12 08:31:45",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240412-008",
+    "timestamp": "2024-04-12 08:56:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240412-012",
+    "timestamp": "2024-04-12 11:57:45",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240412-013",
+    "timestamp": "2024-04-12 12:14:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 310
+  },
+  {
+    "id": "20240412-014",
+    "timestamp": "2024-04-12 12:22:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240412-015",
+    "timestamp": "2024-04-12 12:40:12",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240412-016",
+    "timestamp": "2024-04-12 12:52:52",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240412-017",
+    "timestamp": "2024-04-12 13:07:22",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 260
+  },
+  {
+    "id": "20240412-018",
+    "timestamp": "2024-04-12 13:18:35",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240412-019",
+    "timestamp": "2024-04-12 15:09:42",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240412-020",
+    "timestamp": "2024-04-12 15:16:05",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240412-021",
+    "timestamp": "2024-04-12 15:44:40",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 430,
+    "discount": 0
+  },
+  {
+    "id": "20240412-022",
+    "timestamp": "2024-04-12 15:46:57",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240412-009",
+    "timestamp": "2024-04-12 09:01:35",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240412-010",
+    "timestamp": "2024-04-12 09:23:14",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 580,
+    "discount": 0
+  },
+  {
+    "id": "20240412-011",
+    "timestamp": "2024-04-12 09:31:44",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1020,
+    "discount": 0
+  },
+  {
+    "id": "20240413-001",
+    "timestamp": "2024-04-13 07:05:34",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240413-002",
+    "timestamp": "2024-04-13 07:24:41",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240413-003",
+    "timestamp": "2024-04-13 07:31:39",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 40
+  },
+  {
+    "id": "20240413-004",
+    "timestamp": "2024-04-13 07:54:36",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240413-011",
+    "timestamp": "2024-04-13 11:58:45",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240413-012",
+    "timestamp": "2024-04-13 12:07:23",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1660,
+    "discount": 0
+  },
+  {
+    "id": "20240413-013",
+    "timestamp": "2024-04-13 12:28:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240413-014",
+    "timestamp": "2024-04-13 12:32:42",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 130
+  },
+  {
+    "id": "20240413-015",
+    "timestamp": "2024-04-13 12:50:43",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 2260,
+    "discount": 0
+  },
+  {
+    "id": "20240413-016",
+    "timestamp": "2024-04-13 13:03:29",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240413-017",
+    "timestamp": "2024-04-13 13:21:24",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 170
+  },
+  {
+    "id": "20240413-018",
+    "timestamp": "2024-04-13 15:02:40",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 800,
+    "discount": 0
+  },
+  {
+    "id": "20240413-019",
+    "timestamp": "2024-04-13 15:27:52",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240413-020",
+    "timestamp": "2024-04-13 15:36:41",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 830,
+    "discount": 0
+  },
+  {
+    "id": "20240413-021",
+    "timestamp": "2024-04-13 15:51:18",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 980,
+    "discount": 0
+  },
+  {
+    "id": "20240413-005",
+    "timestamp": "2024-04-13 09:07:35",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240413-006",
+    "timestamp": "2024-04-13 09:20:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1070,
+    "discount": 0
+  },
+  {
+    "id": "20240413-007",
+    "timestamp": "2024-04-13 09:42:35",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1010,
+    "discount": 0
+  },
+  {
+    "id": "20240413-008",
+    "timestamp": "2024-04-13 09:54:08",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1440,
+    "discount": 0
+  },
+  {
+    "id": "20240413-009",
+    "timestamp": "2024-04-13 10:01:49",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240413-010",
+    "timestamp": "2024-04-13 10:24:14",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 920,
+    "discount": 0
+  },
+  {
+    "id": "20240414-001",
+    "timestamp": "2024-04-14 07:02:37",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 800,
+    "discount": 0
+  },
+  {
+    "id": "20240414-002",
+    "timestamp": "2024-04-14 07:28:04",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240414-003",
+    "timestamp": "2024-04-14 07:38:25",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 820,
+    "discount": 0
+  },
+  {
+    "id": "20240414-004",
+    "timestamp": "2024-04-14 07:56:36",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240414-005",
+    "timestamp": "2024-04-14 08:12:20",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240414-006",
+    "timestamp": "2024-04-14 08:23:15",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240414-007",
+    "timestamp": "2024-04-14 08:32:11",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 60
+  },
+  {
+    "id": "20240414-008",
+    "timestamp": "2024-04-14 08:58:05",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240414-017",
+    "timestamp": "2024-04-14 12:00:00",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240414-018",
+    "timestamp": "2024-04-14 12:05:33",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 100
+  },
+  {
+    "id": "20240414-019",
+    "timestamp": "2024-04-14 12:17:09",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 960,
+    "discount": 0
+  },
+  {
+    "id": "20240414-020",
+    "timestamp": "2024-04-14 12:37:04",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 350
+  },
+  {
+    "id": "20240414-021",
+    "timestamp": "2024-04-14 12:48:44",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240414-022",
+    "timestamp": "2024-04-14 13:09:38",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 380
+  },
+  {
+    "id": "20240414-023",
+    "timestamp": "2024-04-14 13:30:44",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 500,
+    "discount": 0
+  },
+  {
+    "id": "20240414-024",
+    "timestamp": "2024-04-14 15:05:12",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240414-025",
+    "timestamp": "2024-04-14 15:22:42",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1860,
+    "discount": 0
+  },
+  {
+    "id": "20240414-026",
+    "timestamp": "2024-04-14 15:44:06",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 300,
+    "discount": 0
+  },
+  {
+    "id": "20240414-027",
+    "timestamp": "2024-04-14 15:53:36",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1440,
+    "discount": 0
+  },
+  {
+    "id": "20240414-009",
+    "timestamp": "2024-04-14 09:12:32",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 830,
+    "discount": 0
+  },
+  {
+    "id": "20240414-010",
+    "timestamp": "2024-04-14 09:20:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 840,
+    "discount": 0
+  },
+  {
+    "id": "20240414-011",
+    "timestamp": "2024-04-14 09:39:31",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240414-012",
+    "timestamp": "2024-04-14 09:57:00",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1400,
+    "discount": 0
+  },
+  {
+    "id": "20240414-013",
+    "timestamp": "2024-04-14 10:07:06",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1110,
+    "discount": 0
+  },
+  {
+    "id": "20240414-014",
+    "timestamp": "2024-04-14 10:19:18",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240414-015",
+    "timestamp": "2024-04-14 10:39:44",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240414-016",
+    "timestamp": "2024-04-14 11:00:10",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 2150,
+    "discount": 0
+  },
+  {
+    "id": "20240415-001",
+    "timestamp": "2024-04-15 07:08:29",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240415-002",
+    "timestamp": "2024-04-15 07:26:25",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240415-003",
+    "timestamp": "2024-04-15 07:36:32",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240415-004",
+    "timestamp": "2024-04-15 07:57:29",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 200
+  },
+  {
+    "id": "20240415-005",
+    "timestamp": "2024-04-15 08:01:02",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240415-010",
+    "timestamp": "2024-04-15 12:00:01",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 2150,
+    "discount": 0
+  },
+  {
+    "id": "20240415-011",
+    "timestamp": "2024-04-15 12:01:54",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 90
+  },
+  {
+    "id": "20240415-012",
+    "timestamp": "2024-04-15 12:16:38",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 140
+  },
+  {
+    "id": "20240415-013",
+    "timestamp": "2024-04-15 12:39:36",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 2450,
+    "discount": 0
+  },
+  {
+    "id": "20240415-014",
+    "timestamp": "2024-04-15 12:47:29",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240415-015",
+    "timestamp": "2024-04-15 13:14:28",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 130
+  },
+  {
+    "id": "20240415-016",
+    "timestamp": "2024-04-15 13:29:01",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 260
+  },
+  {
+    "id": "20240415-017",
+    "timestamp": "2024-04-15 15:10:22",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 300,
+    "discount": 0
+  },
+  {
+    "id": "20240415-018",
+    "timestamp": "2024-04-15 15:19:54",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1470,
+    "discount": 0
+  },
+  {
+    "id": "20240415-006",
+    "timestamp": "2024-04-15 09:07:53",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1460,
+    "discount": 0
+  },
+  {
+    "id": "20240415-007",
+    "timestamp": "2024-04-15 09:18:03",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 770,
+    "discount": 0
+  },
+  {
+    "id": "20240415-008",
+    "timestamp": "2024-04-15 09:44:15",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1360,
+    "discount": 0
+  },
+  {
+    "id": "20240415-009",
+    "timestamp": "2024-04-15 09:51:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240416-001",
+    "timestamp": "2024-04-16 07:14:47",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 180
+  },
+  {
+    "id": "20240416-002",
+    "timestamp": "2024-04-16 07:28:15",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240416-003",
+    "timestamp": "2024-04-16 07:39:34",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240416-004",
+    "timestamp": "2024-04-16 07:52:00",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240416-005",
+    "timestamp": "2024-04-16 08:11:37",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240416-006",
+    "timestamp": "2024-04-16 08:19:34",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240416-015",
+    "timestamp": "2024-04-16 11:53:52",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 90
+  },
+  {
+    "id": "20240416-016",
+    "timestamp": "2024-04-16 12:03:09",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 320
+  },
+  {
+    "id": "20240416-017",
+    "timestamp": "2024-04-16 12:26:09",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 220
+  },
+  {
+    "id": "20240416-018",
+    "timestamp": "2024-04-16 12:38:34",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 290
+  },
+  {
+    "id": "20240416-019",
+    "timestamp": "2024-04-16 12:52:20",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 190
+  },
+  {
+    "id": "20240416-020",
+    "timestamp": "2024-04-16 13:00:44",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240416-021",
+    "timestamp": "2024-04-16 13:27:59",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 190
+  },
+  {
+    "id": "20240416-022",
+    "timestamp": "2024-04-16 15:15:16",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240416-023",
+    "timestamp": "2024-04-16 15:28:34",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240416-024",
+    "timestamp": "2024-04-16 15:31:59",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 920,
+    "discount": 0
+  },
+  {
+    "id": "20240416-025",
+    "timestamp": "2024-04-16 15:48:37",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1450,
+    "discount": 0
+  },
+  {
+    "id": "20240416-007",
+    "timestamp": "2024-04-16 09:03:48",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240416-008",
+    "timestamp": "2024-04-16 09:21:36",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240416-009",
+    "timestamp": "2024-04-16 09:39:01",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240416-010",
+    "timestamp": "2024-04-16 09:58:41",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240416-011",
+    "timestamp": "2024-04-16 10:11:26",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 430,
+    "discount": 0
+  },
+  {
+    "id": "20240416-012",
+    "timestamp": "2024-04-16 10:19:37",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 980,
+    "discount": 0
+  },
+  {
+    "id": "20240416-013",
+    "timestamp": "2024-04-16 10:39:57",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240416-014",
+    "timestamp": "2024-04-16 10:45:53",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240417-001",
+    "timestamp": "2024-04-17 07:09:12",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240417-002",
+    "timestamp": "2024-04-17 07:16:46",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240417-003",
+    "timestamp": "2024-04-17 07:45:40",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240417-004",
+    "timestamp": "2024-04-17 07:57:33",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240417-005",
+    "timestamp": "2024-04-17 08:11:13",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240417-006",
+    "timestamp": "2024-04-17 08:29:39",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240417-013",
+    "timestamp": "2024-04-17 11:48:05",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 260
+  },
+  {
+    "id": "20240417-014",
+    "timestamp": "2024-04-17 12:06:39",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240417-015",
+    "timestamp": "2024-04-17 12:23:32",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240417-016",
+    "timestamp": "2024-04-17 12:40:07",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 100
+  },
+  {
+    "id": "20240417-017",
+    "timestamp": "2024-04-17 12:59:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 350
+  },
+  {
+    "id": "20240417-018",
+    "timestamp": "2024-04-17 13:07:43",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 400,
+    "discount": 0
+  },
+  {
+    "id": "20240417-019",
+    "timestamp": "2024-04-17 13:18:02",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240417-020",
+    "timestamp": "2024-04-17 15:12:06",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1330,
+    "discount": 0
+  },
+  {
+    "id": "20240417-021",
+    "timestamp": "2024-04-17 15:28:19",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240417-022",
+    "timestamp": "2024-04-17 15:43:38",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240417-023",
+    "timestamp": "2024-04-17 15:55:27",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1070,
+    "discount": 0
+  },
+  {
+    "id": "20240417-007",
+    "timestamp": "2024-04-17 09:11:23",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1400,
+    "discount": 0
+  },
+  {
+    "id": "20240417-008",
+    "timestamp": "2024-04-17 09:17:15",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240417-009",
+    "timestamp": "2024-04-17 09:42:03",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240417-010",
+    "timestamp": "2024-04-17 09:52:37",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240417-011",
+    "timestamp": "2024-04-17 10:00:38",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1020,
+    "discount": 0
+  },
+  {
+    "id": "20240417-012",
+    "timestamp": "2024-04-17 10:24:12",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1390,
+    "discount": 0
+  },
+  {
+    "id": "20240418-001",
+    "timestamp": "2024-04-18 07:09:00",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240418-002",
+    "timestamp": "2024-04-18 07:23:55",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240418-003",
+    "timestamp": "2024-04-18 07:32:34",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240418-004",
+    "timestamp": "2024-04-18 07:52:49",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240418-005",
+    "timestamp": "2024-04-18 08:13:12",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240418-006",
+    "timestamp": "2024-04-18 08:28:05",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240418-007",
+    "timestamp": "2024-04-18 08:39:33",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 200
+  },
+  {
+    "id": "20240418-008",
+    "timestamp": "2024-04-18 08:59:02",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240418-014",
+    "timestamp": "2024-04-18 11:49:53",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240418-015",
+    "timestamp": "2024-04-18 12:12:17",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 310
+  },
+  {
+    "id": "20240418-016",
+    "timestamp": "2024-04-18 12:27:00",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 270
+  },
+  {
+    "id": "20240418-017",
+    "timestamp": "2024-04-18 12:36:31",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 220
+  },
+  {
+    "id": "20240418-018",
+    "timestamp": "2024-04-18 12:46:44",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240418-019",
+    "timestamp": "2024-04-18 13:10:33",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 260
+  },
+  {
+    "id": "20240418-020",
+    "timestamp": "2024-04-18 13:29:33",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240418-021",
+    "timestamp": "2024-04-18 15:11:55",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 910,
+    "discount": 0
+  },
+  {
+    "id": "20240418-022",
+    "timestamp": "2024-04-18 15:22:04",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 400,
+    "discount": 0
+  },
+  {
+    "id": "20240418-023",
+    "timestamp": "2024-04-18 15:41:56",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240418-024",
+    "timestamp": "2024-04-18 15:57:41",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 400,
+    "discount": 0
+  },
+  {
+    "id": "20240418-009",
+    "timestamp": "2024-04-18 09:04:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240418-010",
+    "timestamp": "2024-04-18 09:26:09",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1990,
+    "discount": 0
+  },
+  {
+    "id": "20240418-011",
+    "timestamp": "2024-04-18 09:31:34",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240418-012",
+    "timestamp": "2024-04-18 09:57:46",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240418-013",
+    "timestamp": "2024-04-18 10:08:49",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 940,
+    "discount": 0
+  },
+  {
+    "id": "20240419-001",
+    "timestamp": "2024-04-19 07:04:38",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240419-002",
+    "timestamp": "2024-04-19 07:19:22",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240419-003",
+    "timestamp": "2024-04-19 07:32:27",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240419-004",
+    "timestamp": "2024-04-19 07:52:32",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240419-005",
+    "timestamp": "2024-04-19 08:13:11",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240419-006",
+    "timestamp": "2024-04-19 08:21:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240419-007",
+    "timestamp": "2024-04-19 08:43:55",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240419-008",
+    "timestamp": "2024-04-19 08:55:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 180
+  },
+  {
+    "id": "20240419-014",
+    "timestamp": "2024-04-19 11:51:34",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 130
+  },
+  {
+    "id": "20240419-015",
+    "timestamp": "2024-04-19 12:13:14",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 210
+  },
+  {
+    "id": "20240419-016",
+    "timestamp": "2024-04-19 12:25:26",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1870,
+    "discount": 0
+  },
+  {
+    "id": "20240419-017",
+    "timestamp": "2024-04-19 12:43:01",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 220
+  },
+  {
+    "id": "20240419-018",
+    "timestamp": "2024-04-19 12:46:46",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 800,
+    "discount": 0
+  },
+  {
+    "id": "20240419-019",
+    "timestamp": "2024-04-19 13:01:59",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 300
+  },
+  {
+    "id": "20240419-020",
+    "timestamp": "2024-04-19 13:23:59",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1770,
+    "discount": 0
+  },
+  {
+    "id": "20240419-021",
+    "timestamp": "2024-04-19 15:06:54",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 300,
+    "discount": 0
+  },
+  {
+    "id": "20240419-022",
+    "timestamp": "2024-04-19 15:27:17",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240419-023",
+    "timestamp": "2024-04-19 15:32:35",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 920,
+    "discount": 0
+  },
+  {
+    "id": "20240419-024",
+    "timestamp": "2024-04-19 15:48:30",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 430,
+    "discount": 0
+  },
+  {
+    "id": "20240419-009",
+    "timestamp": "2024-04-19 09:09:18",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240419-010",
+    "timestamp": "2024-04-19 09:29:53",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 940,
+    "discount": 0
+  },
+  {
+    "id": "20240419-011",
+    "timestamp": "2024-04-19 09:42:45",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1050,
+    "discount": 0
+  },
+  {
+    "id": "20240419-012",
+    "timestamp": "2024-04-19 09:46:26",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 2030,
+    "discount": 0
+  },
+  {
+    "id": "20240419-013",
+    "timestamp": "2024-04-19 10:05:26",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240420-001",
+    "timestamp": "2024-04-20 07:12:51",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240420-002",
+    "timestamp": "2024-04-20 07:20:28",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240420-003",
+    "timestamp": "2024-04-20 07:43:35",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240420-004",
+    "timestamp": "2024-04-20 07:54:23",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240420-005",
+    "timestamp": "2024-04-20 08:12:21",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240420-006",
+    "timestamp": "2024-04-20 08:28:03",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240420-007",
+    "timestamp": "2024-04-20 08:37:24",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240420-008",
+    "timestamp": "2024-04-20 08:55:04",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 60
+  },
+  {
+    "id": "20240420-019",
+    "timestamp": "2024-04-20 11:52:50",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 170
+  },
+  {
+    "id": "20240420-020",
+    "timestamp": "2024-04-20 12:06:49",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 270
+  },
+  {
+    "id": "20240420-021",
+    "timestamp": "2024-04-20 12:25:51",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240420-022",
+    "timestamp": "2024-04-20 12:41:17",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240420-023",
+    "timestamp": "2024-04-20 12:48:54",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240420-024",
+    "timestamp": "2024-04-20 13:09:16",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 220
+  },
+  {
+    "id": "20240420-025",
+    "timestamp": "2024-04-20 13:22:06",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 340
+  },
+  {
+    "id": "20240420-026",
+    "timestamp": "2024-04-20 15:07:05",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1420,
+    "discount": 0
+  },
+  {
+    "id": "20240420-027",
+    "timestamp": "2024-04-20 15:22:37",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240420-028",
+    "timestamp": "2024-04-20 15:40:22",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1470,
+    "discount": 0
+  },
+  {
+    "id": "20240420-029",
+    "timestamp": "2024-04-20 15:49:12",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1420,
+    "discount": 0
+  },
+  {
+    "id": "20240420-009",
+    "timestamp": "2024-04-20 09:09:13",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240420-010",
+    "timestamp": "2024-04-20 09:21:45",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1390,
+    "discount": 0
+  },
+  {
+    "id": "20240420-011",
+    "timestamp": "2024-04-20 09:37:00",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 770,
+    "discount": 0
+  },
+  {
+    "id": "20240420-012",
+    "timestamp": "2024-04-20 09:55:08",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1070,
+    "discount": 0
+  },
+  {
+    "id": "20240420-013",
+    "timestamp": "2024-04-20 10:03:58",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1440,
+    "discount": 0
+  },
+  {
+    "id": "20240420-014",
+    "timestamp": "2024-04-20 10:21:19",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240420-015",
+    "timestamp": "2024-04-20 10:40:38",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 860,
+    "discount": 0
+  },
+  {
+    "id": "20240420-016",
+    "timestamp": "2024-04-20 11:00:10",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240420-017",
+    "timestamp": "2024-04-20 11:12:50",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 430,
+    "discount": 0
+  },
+  {
+    "id": "20240420-018",
+    "timestamp": "2024-04-20 11:17:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240421-001",
+    "timestamp": "2024-04-21 07:09:36",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240421-002",
+    "timestamp": "2024-04-21 07:25:33",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240421-003",
+    "timestamp": "2024-04-21 07:41:11",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240421-004",
+    "timestamp": "2024-04-21 07:46:07",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240421-005",
+    "timestamp": "2024-04-21 08:05:09",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240421-006",
+    "timestamp": "2024-04-21 08:29:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240421-007",
+    "timestamp": "2024-04-21 08:43:15",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240421-008",
+    "timestamp": "2024-04-21 08:57:23",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240421-015",
+    "timestamp": "2024-04-21 11:54:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 370
+  },
+  {
+    "id": "20240421-016",
+    "timestamp": "2024-04-21 12:03:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 100
+  },
+  {
+    "id": "20240421-017",
+    "timestamp": "2024-04-21 12:27:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 220
+  },
+  {
+    "id": "20240421-018",
+    "timestamp": "2024-04-21 12:42:59",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 70
+  },
+  {
+    "id": "20240421-019",
+    "timestamp": "2024-04-21 12:45:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240421-020",
+    "timestamp": "2024-04-21 13:11:15",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240421-021",
+    "timestamp": "2024-04-21 13:19:22",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240421-022",
+    "timestamp": "2024-04-21 15:15:54",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 2620,
+    "discount": 0
+  },
+  {
+    "id": "20240421-023",
+    "timestamp": "2024-04-21 15:29:00",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240421-024",
+    "timestamp": "2024-04-21 15:37:54",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240421-025",
+    "timestamp": "2024-04-21 15:53:36",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1500,
+    "discount": 0
+  },
+  {
+    "id": "20240421-009",
+    "timestamp": "2024-04-21 09:02:24",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1520,
+    "discount": 0
+  },
+  {
+    "id": "20240421-010",
+    "timestamp": "2024-04-21 09:23:16",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240421-011",
+    "timestamp": "2024-04-21 09:33:55",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1940,
+    "discount": 0
+  },
+  {
+    "id": "20240421-012",
+    "timestamp": "2024-04-21 09:55:55",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1000,
+    "discount": 0
+  },
+  {
+    "id": "20240421-013",
+    "timestamp": "2024-04-21 10:05:51",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1050,
+    "discount": 0
+  },
+  {
+    "id": "20240421-014",
+    "timestamp": "2024-04-21 10:17:55",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240422-001",
+    "timestamp": "2024-04-22 07:12:18",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 170
+  },
+  {
+    "id": "20240422-002",
+    "timestamp": "2024-04-22 07:24:30",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240422-003",
+    "timestamp": "2024-04-22 07:44:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240422-004",
+    "timestamp": "2024-04-22 07:48:41",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240422-005",
+    "timestamp": "2024-04-22 08:01:37",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 60
+  },
+  {
+    "id": "20240422-006",
+    "timestamp": "2024-04-22 08:29:57",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240422-007",
+    "timestamp": "2024-04-22 08:35:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240422-008",
+    "timestamp": "2024-04-22 08:49:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 200
+  },
+  {
+    "id": "20240422-014",
+    "timestamp": "2024-04-22 11:50:27",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240422-015",
+    "timestamp": "2024-04-22 12:05:18",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240422-016",
+    "timestamp": "2024-04-22 12:18:45",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 0
+  },
+  {
+    "id": "20240422-017",
+    "timestamp": "2024-04-22 12:34:24",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 270
+  },
+  {
+    "id": "20240422-018",
+    "timestamp": "2024-04-22 12:55:39",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240422-019",
+    "timestamp": "2024-04-22 13:02:10",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240422-020",
+    "timestamp": "2024-04-22 13:16:57",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240422-021",
+    "timestamp": "2024-04-22 15:08:28",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 2500,
+    "discount": 0
+  },
+  {
+    "id": "20240422-022",
+    "timestamp": "2024-04-22 15:23:46",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1350,
+    "discount": 0
+  },
+  {
+    "id": "20240422-023",
+    "timestamp": "2024-04-22 15:44:57",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1500,
+    "discount": 0
+  },
+  {
+    "id": "20240422-024",
+    "timestamp": "2024-04-22 15:47:48",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1500,
+    "discount": 0
+  },
+  {
+    "id": "20240422-009",
+    "timestamp": "2024-04-22 09:09:26",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 950,
+    "discount": 0
+  },
+  {
+    "id": "20240422-010",
+    "timestamp": "2024-04-22 09:22:13",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240422-011",
+    "timestamp": "2024-04-22 09:43:13",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240422-012",
+    "timestamp": "2024-04-22 09:46:59",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1430,
+    "discount": 0
+  },
+  {
+    "id": "20240422-013",
+    "timestamp": "2024-04-22 10:09:57",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1020,
+    "discount": 0
+  },
+  {
+    "id": "20240423-001",
+    "timestamp": "2024-04-23 07:12:49",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 110
+  },
+  {
+    "id": "20240423-002",
+    "timestamp": "2024-04-23 07:26:01",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240423-003",
+    "timestamp": "2024-04-23 07:44:12",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240423-004",
+    "timestamp": "2024-04-23 07:50:38",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 170
+  },
+  {
+    "id": "20240423-005",
+    "timestamp": "2024-04-23 08:15:20",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240423-006",
+    "timestamp": "2024-04-23 08:20:43",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240423-007",
+    "timestamp": "2024-04-23 08:39:34",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240423-008",
+    "timestamp": "2024-04-23 08:53:05",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240423-016",
+    "timestamp": "2024-04-23 11:48:24",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 210
+  },
+  {
+    "id": "20240423-017",
+    "timestamp": "2024-04-23 12:06:37",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1580,
+    "discount": 0
+  },
+  {
+    "id": "20240423-018",
+    "timestamp": "2024-04-23 12:17:33",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240423-019",
+    "timestamp": "2024-04-23 12:31:52",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 550,
+    "discount": 0
+  },
+  {
+    "id": "20240423-020",
+    "timestamp": "2024-04-23 12:49:31",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240423-021",
+    "timestamp": "2024-04-23 13:06:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240423-022",
+    "timestamp": "2024-04-23 13:25:18",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1700,
+    "discount": 0
+  },
+  {
+    "id": "20240423-023",
+    "timestamp": "2024-04-23 15:14:44",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 300,
+    "discount": 0
+  },
+  {
+    "id": "20240423-024",
+    "timestamp": "2024-04-23 15:25:09",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240423-025",
+    "timestamp": "2024-04-23 15:37:03",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240423-026",
+    "timestamp": "2024-04-23 15:55:07",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 2330,
+    "discount": 0
+  },
+  {
+    "id": "20240423-009",
+    "timestamp": "2024-04-23 09:03:27",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240423-010",
+    "timestamp": "2024-04-23 09:23:39",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240423-011",
+    "timestamp": "2024-04-23 09:44:15",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 430,
+    "discount": 0
+  },
+  {
+    "id": "20240423-012",
+    "timestamp": "2024-04-23 09:55:02",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240423-013",
+    "timestamp": "2024-04-23 10:15:11",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240423-014",
+    "timestamp": "2024-04-23 10:25:24",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1240,
+    "discount": 0
+  },
+  {
+    "id": "20240423-015",
+    "timestamp": "2024-04-23 10:33:04",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240424-001",
+    "timestamp": "2024-04-24 07:12:32",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 170
+  },
+  {
+    "id": "20240424-002",
+    "timestamp": "2024-04-24 07:26:59",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240424-003",
+    "timestamp": "2024-04-24 07:35:15",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 60
+  },
+  {
+    "id": "20240424-004",
+    "timestamp": "2024-04-24 07:46:45",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240424-005",
+    "timestamp": "2024-04-24 08:11:59",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 130
+  },
+  {
+    "id": "20240424-006",
+    "timestamp": "2024-04-24 08:19:06",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240424-007",
+    "timestamp": "2024-04-24 08:42:34",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240424-008",
+    "timestamp": "2024-04-24 08:47:55",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240424-014",
+    "timestamp": "2024-04-24 11:51:42",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240424-015",
+    "timestamp": "2024-04-24 12:08:08",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240424-016",
+    "timestamp": "2024-04-24 12:23:11",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 2510,
+    "discount": 0
+  },
+  {
+    "id": "20240424-017",
+    "timestamp": "2024-04-24 12:41:02",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 580,
+    "discount": 0
+  },
+  {
+    "id": "20240424-018",
+    "timestamp": "2024-04-24 12:50:24",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 160
+  },
+  {
+    "id": "20240424-019",
+    "timestamp": "2024-04-24 13:14:12",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 140
+  },
+  {
+    "id": "20240424-020",
+    "timestamp": "2024-04-24 13:26:06",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240424-021",
+    "timestamp": "2024-04-24 15:11:32",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1490,
+    "discount": 0
+  },
+  {
+    "id": "20240424-022",
+    "timestamp": "2024-04-24 15:26:23",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240424-023",
+    "timestamp": "2024-04-24 15:31:03",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240424-024",
+    "timestamp": "2024-04-24 15:53:12",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1400,
+    "discount": 0
+  },
+  {
+    "id": "20240424-009",
+    "timestamp": "2024-04-24 09:03:19",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240424-010",
+    "timestamp": "2024-04-24 09:18:31",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 960,
+    "discount": 0
+  },
+  {
+    "id": "20240424-011",
+    "timestamp": "2024-04-24 09:31:05",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1450,
+    "discount": 0
+  },
+  {
+    "id": "20240424-012",
+    "timestamp": "2024-04-24 10:00:11",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240424-013",
+    "timestamp": "2024-04-24 10:09:32",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1430,
+    "discount": 0
+  },
+  {
+    "id": "20240425-001",
+    "timestamp": "2024-04-25 07:12:08",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 40
+  },
+  {
+    "id": "20240425-002",
+    "timestamp": "2024-04-25 07:23:42",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240425-003",
+    "timestamp": "2024-04-25 07:36:23",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240425-004",
+    "timestamp": "2024-04-25 07:54:33",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 820,
+    "discount": 0
+  },
+  {
+    "id": "20240425-009",
+    "timestamp": "2024-04-25 11:45:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 320
+  },
+  {
+    "id": "20240425-010",
+    "timestamp": "2024-04-25 12:12:52",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240425-011",
+    "timestamp": "2024-04-25 12:30:02",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240425-012",
+    "timestamp": "2024-04-25 12:36:56",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 160
+  },
+  {
+    "id": "20240425-013",
+    "timestamp": "2024-04-25 12:57:46",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1590,
+    "discount": 0
+  },
+  {
+    "id": "20240425-014",
+    "timestamp": "2024-04-25 13:04:11",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1590,
+    "discount": 0
+  },
+  {
+    "id": "20240425-015",
+    "timestamp": "2024-04-25 13:22:38",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240425-016",
+    "timestamp": "2024-04-25 15:10:29",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 840,
+    "discount": 0
+  },
+  {
+    "id": "20240425-017",
+    "timestamp": "2024-04-25 15:25:30",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1360,
+    "discount": 0
+  },
+  {
+    "id": "20240425-018",
+    "timestamp": "2024-04-25 15:31:02",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 1030,
+    "discount": 0
+  },
+  {
+    "id": "20240425-019",
+    "timestamp": "2024-04-25 15:54:11",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240425-005",
+    "timestamp": "2024-04-25 09:14:00",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 2050,
+    "discount": 0
+  },
+  {
+    "id": "20240425-006",
+    "timestamp": "2024-04-25 09:27:21",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1340,
+    "discount": 0
+  },
+  {
+    "id": "20240425-007",
+    "timestamp": "2024-04-25 09:41:13",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 960,
+    "discount": 0
+  },
+  {
+    "id": "20240425-008",
+    "timestamp": "2024-04-25 10:00:11",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 950,
+    "discount": 0
+  },
+  {
+    "id": "20240426-001",
+    "timestamp": "2024-04-26 07:04:28",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240426-002",
+    "timestamp": "2024-04-26 07:23:36",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240426-003",
+    "timestamp": "2024-04-26 07:38:43",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 200
+  },
+  {
+    "id": "20240426-004",
+    "timestamp": "2024-04-26 07:50:37",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240426-005",
+    "timestamp": "2024-04-26 08:10:14",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 170
+  },
+  {
+    "id": "20240426-006",
+    "timestamp": "2024-04-26 08:17:15",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240426-007",
+    "timestamp": "2024-04-26 08:40:36",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240426-008",
+    "timestamp": "2024-04-26 08:57:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240426-014",
+    "timestamp": "2024-04-26 11:57:11",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 220
+  },
+  {
+    "id": "20240426-015",
+    "timestamp": "2024-04-26 12:06:09",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 240
+  },
+  {
+    "id": "20240426-016",
+    "timestamp": "2024-04-26 12:30:47",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 350
+  },
+  {
+    "id": "20240426-017",
+    "timestamp": "2024-04-26 12:39:49",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 2180,
+    "discount": 0
+  },
+  {
+    "id": "20240426-018",
+    "timestamp": "2024-04-26 12:51:29",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 320
+  },
+  {
+    "id": "20240426-019",
+    "timestamp": "2024-04-26 13:14:29",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 290
+  },
+  {
+    "id": "20240426-020",
+    "timestamp": "2024-04-26 13:24:47",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240426-021",
+    "timestamp": "2024-04-26 15:08:34",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240426-022",
+    "timestamp": "2024-04-26 15:16:37",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240426-023",
+    "timestamp": "2024-04-26 15:32:01",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240426-024",
+    "timestamp": "2024-04-26 15:49:27",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1010,
+    "discount": 0
+  },
+  {
+    "id": "20240426-009",
+    "timestamp": "2024-04-26 09:05:12",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1400,
+    "discount": 0
+  },
+  {
+    "id": "20240426-010",
+    "timestamp": "2024-04-26 09:22:43",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240426-011",
+    "timestamp": "2024-04-26 09:39:51",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 1320,
+    "discount": 0
+  },
+  {
+    "id": "20240426-012",
+    "timestamp": "2024-04-26 09:48:41",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 950,
+    "discount": 0
+  },
+  {
+    "id": "20240426-013",
+    "timestamp": "2024-04-26 10:10:47",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240427-001",
+    "timestamp": "2024-04-27 07:06:38",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240427-002",
+    "timestamp": "2024-04-27 07:25:56",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240427-003",
+    "timestamp": "2024-04-27 07:43:39",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240427-004",
+    "timestamp": "2024-04-27 07:53:29",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 70
+  },
+  {
+    "id": "20240427-005",
+    "timestamp": "2024-04-27 08:02:33",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240427-006",
+    "timestamp": "2024-04-27 08:17:48",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240427-007",
+    "timestamp": "2024-04-27 08:44:23",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240427-008",
+    "timestamp": "2024-04-27 08:53:38",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 120
+  },
+  {
+    "id": "20240427-011",
+    "timestamp": "2024-04-27 11:48:39",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240427-012",
+    "timestamp": "2024-04-27 12:13:35",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 350
+  },
+  {
+    "id": "20240427-013",
+    "timestamp": "2024-04-27 12:21:27",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 120
+  },
+  {
+    "id": "20240427-014",
+    "timestamp": "2024-04-27 12:31:15",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1100,
+    "discount": 0
+  },
+  {
+    "id": "20240427-015",
+    "timestamp": "2024-04-27 12:47:37",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 230
+  },
+  {
+    "id": "20240427-016",
+    "timestamp": "2024-04-27 13:08:50",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 120
+  },
+  {
+    "id": "20240427-017",
+    "timestamp": "2024-04-27 13:18:44",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240427-018",
+    "timestamp": "2024-04-27 15:01:33",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 420,
+    "discount": 0
+  },
+  {
+    "id": "20240427-019",
+    "timestamp": "2024-04-27 15:26:32",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 300,
+    "discount": 0
+  },
+  {
+    "id": "20240427-020",
+    "timestamp": "2024-04-27 15:33:41",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 1000,
+    "discount": 0
+  },
+  {
+    "id": "20240427-021",
+    "timestamp": "2024-04-27 16:00:03",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 910,
+    "discount": 0
+  },
+  {
+    "id": "20240427-009",
+    "timestamp": "2024-04-27 09:13:50",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240427-010",
+    "timestamp": "2024-04-27 09:18:26",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240428-001",
+    "timestamp": "2024-04-28 07:11:42",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240428-002",
+    "timestamp": "2024-04-28 07:18:07",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240428-003",
+    "timestamp": "2024-04-28 07:41:49",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 0
+  },
+  {
+    "id": "20240428-004",
+    "timestamp": "2024-04-28 07:45:40",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240428-005",
+    "timestamp": "2024-04-28 08:10:16",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240428-006",
+    "timestamp": "2024-04-28 08:21:18",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240428-007",
+    "timestamp": "2024-04-28 08:31:28",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 150
+  },
+  {
+    "id": "20240428-008",
+    "timestamp": "2024-04-28 08:51:38",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 80
+  },
+  {
+    "id": "20240428-015",
+    "timestamp": "2024-04-28 11:49:12",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 2000,
+    "discount": 0
+  },
+  {
+    "id": "20240428-016",
+    "timestamp": "2024-04-28 12:07:06",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 300
+  },
+  {
+    "id": "20240428-017",
+    "timestamp": "2024-04-28 12:24:24",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1250,
+    "discount": 0
+  },
+  {
+    "id": "20240428-018",
+    "timestamp": "2024-04-28 12:34:51",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240428-019",
+    "timestamp": "2024-04-28 12:55:23",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 170
+  },
+  {
+    "id": "20240428-020",
+    "timestamp": "2024-04-28 13:15:03",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240428-021",
+    "timestamp": "2024-04-28 13:28:58",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 270
+  },
+  {
+    "id": "20240428-022",
+    "timestamp": "2024-04-28 15:12:08",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 760,
+    "discount": 0
+  },
+  {
+    "id": "20240428-023",
+    "timestamp": "2024-04-28 15:29:05",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240428-024",
+    "timestamp": "2024-04-28 15:38:13",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 350,
+    "discount": 0
+  },
+  {
+    "id": "20240428-025",
+    "timestamp": "2024-04-28 15:51:31",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1490,
+    "discount": 0
+  },
+  {
+    "id": "20240428-009",
+    "timestamp": "2024-04-28 09:12:12",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240428-010",
+    "timestamp": "2024-04-28 09:17:09",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1450,
+    "discount": 0
+  },
+  {
+    "id": "20240428-011",
+    "timestamp": "2024-04-28 09:43:17",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240428-012",
+    "timestamp": "2024-04-28 09:52:59",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 930,
+    "discount": 0
+  },
+  {
+    "id": "20240428-013",
+    "timestamp": "2024-04-28 10:07:08",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240428-014",
+    "timestamp": "2024-04-28 10:25:41",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240429-001",
+    "timestamp": "2024-04-29 07:08:50",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240429-002",
+    "timestamp": "2024-04-29 07:19:07",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 170
+  },
+  {
+    "id": "20240429-003",
+    "timestamp": "2024-04-29 07:39:33",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240429-008",
+    "timestamp": "2024-04-29 11:47:39",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1770,
+    "discount": 0
+  },
+  {
+    "id": "20240429-009",
+    "timestamp": "2024-04-29 12:07:32",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 330
+  },
+  {
+    "id": "20240429-010",
+    "timestamp": "2024-04-29 12:24:43",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 130
+  },
+  {
+    "id": "20240429-011",
+    "timestamp": "2024-04-29 12:42:14",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 280
+  },
+  {
+    "id": "20240429-012",
+    "timestamp": "2024-04-29 12:57:23",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 250
+  },
+  {
+    "id": "20240429-013",
+    "timestamp": "2024-04-29 13:12:01",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 200
+  },
+  {
+    "id": "20240429-014",
+    "timestamp": "2024-04-29 13:17:18",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1330,
+    "discount": 0
+  },
+  {
+    "id": "20240429-015",
+    "timestamp": "2024-04-29 15:08:48",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 980,
+    "discount": 0
+  },
+  {
+    "id": "20240429-016",
+    "timestamp": "2024-04-29 15:24:43",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 380,
+    "discount": 0
+  },
+  {
+    "id": "20240429-017",
+    "timestamp": "2024-04-29 15:34:28",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 910,
+    "discount": 0
+  },
+  {
+    "id": "20240429-004",
+    "timestamp": "2024-04-29 09:12:14",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 830,
+    "discount": 0
+  },
+  {
+    "id": "20240429-005",
+    "timestamp": "2024-04-29 09:21:44",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 870,
+    "discount": 0
+  },
+  {
+    "id": "20240429-006",
+    "timestamp": "2024-04-29 09:39:49",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 830,
+    "discount": 0
+  },
+  {
+    "id": "20240429-007",
+    "timestamp": "2024-04-29 09:55:18",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 460,
+    "discount": 0
+  },
+  {
+    "id": "20240430-001",
+    "timestamp": "2024-04-30 07:08:39",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 20
+  },
+  {
+    "id": "20240430-002",
+    "timestamp": "2024-04-30 07:29:09",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 40
+  },
+  {
+    "id": "20240430-003",
+    "timestamp": "2024-04-30 07:36:19",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 200
+  },
+  {
+    "id": "20240430-004",
+    "timestamp": "2024-04-30 07:59:14",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240430-005",
+    "timestamp": "2024-04-30 08:08:19",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 100
+  },
+  {
+    "id": "20240430-006",
+    "timestamp": "2024-04-30 08:21:34",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 30
+  },
+  {
+    "id": "20240430-007",
+    "timestamp": "2024-04-30 08:35:51",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 1,
+    "total_price": 900,
+    "discount": 50
+  },
+  {
+    "id": "20240430-008",
+    "timestamp": "2024-04-30 08:56:52",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 1,
+    "total_price": 880,
+    "discount": 0
+  },
+  {
+    "id": "20240430-015",
+    "timestamp": "2024-04-30 11:48:15",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 210
+  },
+  {
+    "id": "20240430-016",
+    "timestamp": "2024-04-30 12:06:18",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 150
+  },
+  {
+    "id": "20240430-017",
+    "timestamp": "2024-04-30 12:16:02",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 170
+  },
+  {
+    "id": "20240430-018",
+    "timestamp": "2024-04-30 12:34:32",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 180
+  },
+  {
+    "id": "20240430-019",
+    "timestamp": "2024-04-30 12:47:32",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 500,
+    "discount": 0
+  },
+  {
+    "id": "20240430-020",
+    "timestamp": "2024-04-30 13:10:34",
+    "gender_id": 2,
+    "order_type_id": 2,
+    "weather_id": 1,
+    "time_slot_id": 2,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240430-021",
+    "timestamp": "2024-04-30 13:17:51",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 2,
+    "total_price": 1200,
+    "discount": 160
+  },
+  {
+    "id": "20240430-022",
+    "timestamp": "2024-04-30 15:01:24",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 3,
+    "total_price": 1000,
+    "discount": 0
+  },
+  {
+    "id": "20240430-023",
+    "timestamp": "2024-04-30 15:21:19",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 430,
+    "discount": 0
+  },
+  {
+    "id": "20240430-024",
+    "timestamp": "2024-04-30 15:33:06",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 3,
+    "total_price": 350,
+    "discount": 0
+  },
+  {
+    "id": "20240430-025",
+    "timestamp": "2024-04-30 15:56:52",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 3,
+    "total_price": 840,
+    "discount": 0
+  },
+  {
+    "id": "20240430-009",
+    "timestamp": "2024-04-30 09:03:08",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1380,
+    "discount": 0
+  },
+  {
+    "id": "20240430-010",
+    "timestamp": "2024-04-30 09:24:35",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 1,
+    "time_slot_id": 4,
+    "total_price": 450,
+    "discount": 0
+  },
+  {
+    "id": "20240430-011",
+    "timestamp": "2024-04-30 09:44:52",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 1370,
+    "discount": 0
+  },
+  {
+    "id": "20240430-012",
+    "timestamp": "2024-04-30 09:51:25",
+    "gender_id": 1,
+    "order_type_id": 1,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 850,
+    "discount": 0
+  },
+  {
+    "id": "20240430-013",
+    "timestamp": "2024-04-30 10:01:22",
+    "gender_id": 2,
+    "order_type_id": 1,
+    "weather_id": 3,
+    "time_slot_id": 4,
+    "total_price": 970,
+    "discount": 0
+  },
+  {
+    "id": "20240430-014",
+    "timestamp": "2024-04-30 10:25:58",
+    "gender_id": 1,
+    "order_type_id": 2,
+    "weather_id": 2,
+    "time_slot_id": 4,
+    "total_price": 1730,
+    "discount": 0
+  }
+]

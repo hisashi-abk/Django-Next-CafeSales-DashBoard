@@ -11,6 +11,30 @@ class CategorySerializer(serializers.ModelSerializer):
         fields = ['id', 'name']
 
 
+class GenderSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Gender
+        fields = ['id', 'name']
+
+
+class OrderTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = OrderType
+        fields = ['id', 'name']
+
+
+class WeatherTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = WeatherType
+        fields = ['id', 'name']
+
+
+class TimeSlotSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = TimeSlot
+        fields = ['id', 'name']
+
+
 class MenuItemSerializer(serializers.ModelSerializer):
     category_name = serializers.CharField(source='category.name', read_only=True)
 
