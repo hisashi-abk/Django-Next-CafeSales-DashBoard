@@ -1,7 +1,6 @@
 -- 外部キー制約を無効化
 SET foreign_key_checks = 0;
 
-
 -- データベース作成
 CREATE DATABASE IF NOT EXISTS cafe_db
 CHARACTER SET utf8mb4
