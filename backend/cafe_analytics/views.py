@@ -106,12 +106,12 @@ class ProductAnalysisViewSet(viewsets.ViewSet):
     def bestsellers(self, request):
         """ベストセラー商品を取得"""
         bestsellers = OrderItem.objects.values(
+            'menu_item__category__name',
             'menu_item__name',
-            'menu_item__category__name'
+            'menu_item__price'
         ).annotate(
             total_quantity=Count('id'),
-            total_sales=Sum('price'),
-            avg_price=Avg('price')
+            total_sales=Sum('price')
         ).order_by('-total_quantity')[:10]
         return Response(bestsellers)
 
