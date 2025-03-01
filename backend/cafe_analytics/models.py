@@ -135,8 +135,8 @@ class Order(models.Model):
 
     @property
     def final_price(self):
-        """割引後の最終価格を計算"""
-        return self.total_price - self.discount
+        """割引前の最終価格を計算"""
+        return self.total_price + self.discount
 
 
 class OrderItem(models.Model):

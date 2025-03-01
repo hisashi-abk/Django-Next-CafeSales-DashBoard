@@ -46,10 +46,18 @@ class MenuItemSerializer(serializers.ModelSerializer):
 class OrderItemSerializer(serializers.ModelSerializer):
     menu_item_name = serializers.CharField(source='menu_item.name', read_only=True)
     category_name = serializers.CharField(source='menu_item.category.name', read_only=True)
+    menu_item_price = serializers.IntegerField(source='menu_item.price', read_only=True)
 
     class Meta:
         model = OrderItem
-        fields = ['id', 'menu_item', 'menu_item_name', 'category_name', 'price']
+        fields = [
+            'id',
+            'menu_item',
+            'menu_item_name',
+            'menu_item_price',
+            'category_name',
+            'price'
+        ]
 
 class OrderSerializer(serializers.ModelSerializer):
     items = OrderItemSerializer(many=True, read_only=True)
