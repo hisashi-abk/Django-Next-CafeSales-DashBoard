@@ -10,7 +10,7 @@ class BaseService:
     """
 
     @staticmethod
-    def purse_date_param(date_str: Optional[str]) -> Optional[date]:
+    def parse_date_param(date_str: Optional[str]) -> Optional[date]:
         """
         日付パラメータをstr型からdate型に変換する
         :param date_str: 日付パラメータ

@@ -172,11 +172,11 @@
   "order_types": [
     {
       "id": 1,
-      "name": "for_here"
+      "name": "店内"
     },
     {
       "id": 2,
-      "name": "takeout"
+      "name": "テイクアウト"
     }
   ],
   "weather_types": [
@@ -208,7 +208,7 @@
     },
     {
       "id": 4,
-      "name": "平時"
+      "name": "レギュラー"
     }
   ]
 }
