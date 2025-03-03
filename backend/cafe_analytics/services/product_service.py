@@ -3,6 +3,7 @@ from datetime import date, datetime, timedelta
 
 from django.db.models import Count, Sum, Avg, F
 from django.db.models.functions import ExtractHour
+from django.utils.dateparse import parse_date
 
 from cafe_analytics.models import OrderItem
 from . import BaseService
@@ -13,16 +14,21 @@ class ProductService(BaseService):
     @staticmethod
     def get_bestsellers(
         limit: int = 10,
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None
     ) -> List[Dict[str, Any]]:
         """ベストセラー商品を取得"""
         queryset = OrderItem.objects.all()
 
         if start_date:
-            queryset = queryset.filter(order__timestamp__date__gte=start_date)
+            start_date_obj = parse_date(start_date)
+            if start_date_obj:
+                queryset = queryset.filter(order__timestamp__date__gte=start_date_obj)
+
         if end_date:
-            queryset = queryset.filter(order__timestamp__date__lte=end_date)
+            end_date_obj = parse_date(end_date)
+            if end_date_obj:
+                queryset = queryset.filter(order__timestamp__date__lte=end_date_obj)
 
         bestsellers = queryset.values(
             'menu_item__category__name',
@@ -39,8 +45,8 @@ class ProductService(BaseService):
     def get_popular_items_by_type(
         order_type_id: int,
         limit: int = 10,
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None
     ) -> List[Dict[str, Any]]:
         """指定された注文タイプの人気商品を取得"""
         queryset = OrderItem.objects.filter(
@@ -48,9 +54,14 @@ class ProductService(BaseService):
         )
 
         if start_date:
-            queryset = queryset.filter(order__timestamp__date__gte=start_date)
+            start_date_obj = parse_date(start_date)
+            if start_date_obj:
+                queryset = queryset.filter(order__timestamp__date__gte=start_date_obj)
+
         if end_date:
-            queryset = queryset.filter(order__timestamp__date__lte=end_date)
+            end_date_obj = parse_date(end_date)
+            if end_date_obj:
+                queryset = queryset.filter(order__timestamp__date__lte=end_date_obj)
 
         return list(queryset.values(
             'menu_item__name',
@@ -63,8 +74,8 @@ class ProductService(BaseService):
 
     @staticmethod
     def get_dine_in_popular_by_timeslot(
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None
     ) -> Dict[str, List[Dict[str, Any]]]:
         """店内飲食の時間帯ごとの人気メニューランキングを取得"""
         queryset = OrderItem.objects.filter(
@@ -72,9 +83,14 @@ class ProductService(BaseService):
         )
 
         if start_date:
-            queryset = queryset.filter(order__timestamp__date__gte=start_date)
+            start_date_obj = parse_date(start_date)
+            if start_date_obj:
+                queryset = queryset.filter(order__timestamp__date__gte=start_date_obj)
+
         if end_date:
-            queryset = queryset.filter(order__timestamp__date__lte=end_date)
+            end_date_obj = parse_date(end_date)
+            if end_date_obj:
+                queryset = queryset.filter(order__timestamp__date__lte=end_date_obj)
 
         popular_items = queryset.values(
             'order__time_slot__name',
@@ -118,8 +134,8 @@ class ProductService(BaseService):
 
     @staticmethod
     def get_discount_analysis(
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None
     ) -> List[Dict[str, Any]]:
         """割引分析を取得"""
         from cafe_analytics.models import Order
@@ -127,9 +143,14 @@ class ProductService(BaseService):
         queryset = Order.objects.exclude(discount=0)
 
         if start_date:
-            queryset = queryset.filter(timestamp__date__gte=start_date)
+            start_date_obj = parse_date(start_date)
+            if start_date_obj:
+                queryset = queryset.filter(timestamp__date__gte=start_date_obj)
+
         if end_date:
-            queryset = queryset.filter(timestamp__date__lte=end_date)
+            end_date_obj = parse_date(end_date)
+            if end_date_obj:
+                queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
         discount_data = queryset.values(
             'time_slot__name'

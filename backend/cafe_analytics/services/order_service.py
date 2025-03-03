@@ -3,6 +3,7 @@ from datetime import date, datetime, timedelta
 
 from django.db.models import QuerySet, Max
 from django.utils import timezone
+from django.utils.dateparse import parse_date
 
 from cafe_analytics.models import Order
 from cafe_analytics.serializers import OrderSerializer
@@ -17,6 +18,21 @@ class OrderService(BaseService):
         return Order.objects.aggregate(
             latest_date=Max('timestamp__date')
         )['latest_date']
+
+    @staticmethod
+    def get_target_date(date_str: Optional[str] = None) -> Optional[date]:
+        """
+        リクエストから対象日を取得する
+        指定がない場合は最新の注文日を返す
+        """
+        if date_str:
+            try:
+                return parse_date(date_str)
+            except ValueError:
+                return None
+        else:
+            latest_date = OrderService.get_latest_order_date()
+            return latest_date if latest_date else timezone.now().date()
 
     @staticmethod
     def get_date_range(target_date: date, period: str) -> tuple[date, date]:

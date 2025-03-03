@@ -4,6 +4,7 @@ from decimal import Decimal
 
 from django.db.models import Sum, Count, Avg, F, ExpressionWrapper, DecimalField, QuerySet
 from django.db.models.functions import TruncDate, TruncWeek, TruncMonth
+from django.utils.dateparse import parse_date
 
 from cafe_analytics.models import Order, OrderItem
 from . import BaseService
@@ -14,23 +15,28 @@ class SalesService(BaseService):
     """
 
     @staticmethod
-    def get_sales_summary(start_date: Optional[date] = None, end_date: Optional[date] = None) -> Dict[str, Any]:
+    def get_sales_summary(start_date: Optional[str] = None, end_date: Optional[str] = None) -> Dict[str, Any]:
         """
         基本的な売上サマリーを取得
 
         Args:
-            start_date (date, optional): 開始日. Defaults to None.
-            end_date (date, optional): 終了日. Defaults to None.
+            start_date (str, optional): 開始日の文字列. Defaults to None.
+            end_date (str, optional): 終了日の文字列. Defaults to None.
 
         Returns:
-            Dict[str, Any]: ��上サマリー
+            Dict[str, Any]: 売上サマリー
         """
         queryset = Order.objects.all()
 
         if start_date:
-            queryset = queryset.filter(timestamp__date__gte=start_date)
+            start_date_obj = parse_date(start_date)
+            if start_date_obj:
+                queryset = queryset.filter(timestamp__date__gte=start_date_obj)
+
         if end_date:
-            queryset = queryset.filter(timestamp__date__lte=end_date)
+            end_date_obj = parse_date(end_date)
+            if end_date_obj:
+                queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
         return queryset.aggregate(
             total_amount=Sum('total_price'),
@@ -43,8 +49,8 @@ class SalesService(BaseService):
     @staticmethod
     def get_period_sales(
         period: str,
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None
         ) -> List[Dict[str, Any]]:
             """期間別の売上データを取得"""
             trunc_func = {
@@ -56,9 +62,14 @@ class SalesService(BaseService):
             queryset = Order.objects.all()
 
             if start_date:
-                queryset = queryset.filter(timestamp__date__gte=start_date)
+                start_date_obj = parse_date(start_date)
+                if start_date_obj:
+                    queryset = queryset.filter(timestamp__date__gte=start_date_obj)
+
             if end_date:
-                queryset = queryset.filter(timestamp__date__lte=end_date)
+                end_date_obj = parse_date(end_date)
+                if end_date_obj:
+                    queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
             return list(queryset.annotate(
                 period=trunc_func('timestamp')
@@ -79,16 +90,21 @@ class SalesService(BaseService):
     def get_sales_by_factor(
         factor_field: str,
         factor_name_field: str,
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None
     ) -> List[Dict[str, Any]]:
         """指定された要素(天気や性別等)別の売上データを取得"""
         queryset = Order.objects.all()
 
         if start_date:
-            queryset = queryset.filter(timestamp__date__gte=start_date)
+            start_date_obj = parse_date(start_date)
+            if start_date_obj:
+                queryset = queryset.filter(timestamp__date__gte=start_date_obj)
+
         if end_date:
-            queryset = queryset.filter(timestamp__date__lte=end_date)
+            end_date_obj = parse_date(end_date)
+            if end_date_obj:
+                queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
         return list(queryset.values(
             factor_name_field
@@ -100,24 +116,35 @@ class SalesService(BaseService):
 
     @staticmethod
     def get_top_categories(
-        limit: int = 5,
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None
+        limit: Optional[int] = 5,
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None
     ) -> List[Dict[str, Any]]:
         """トップカテゴリーを取得"""
         queryset = OrderItem.objects.all()
 
         if start_date:
-            queryset = queryset.filter(order__timestamp__date__gte=start_date)
-        if end_date:
-            queryset = queryset.filter(order__timestamp__date__lte=end_date)
+            start_date_obj = parse_date(start_date)
+            if start_date_obj:
+                queryset = queryset.filter(order__timestamp__date__gte=start_date_obj)
 
-        return list(queryset.values(
+        if end_date:
+            end_date_obj = parse_date(end_date)
+            if end_date_obj:
+                queryset = queryset.filter(order__timestamp__date__lte=end_date_obj)
+
+        result = queryset.values(
             'menu_item__category__name'
         ).annotate(
             total_sales=Sum('price'),
-            ietm_sold=Count('id')
-        ).order_by('-total_sales')[:limit])
+            items_sold=Count('id')
+        ).order_by('-total_sales')
+
+        # limitがNoneの場合は全てのカテゴリーを返す
+        if limit is not None:
+            result = result[:limit]
+
+        return list(result)
 
     @staticmethod
     def calculate_takeout_rate(orders: QuerySet) -> float:
@@ -140,16 +167,21 @@ class SalesService(BaseService):
 
     @staticmethod
     def get_weather_timeslot_analysis(
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None
     ) -> List[Dict[str, Any]]:
         """天気と時間帯のクロス分析を取得"""
         queryset = Order.objects.all()
 
         if start_date:
-            queryset = queryset.filter(timestamp__date__gte=start_date)
+            start_date_obj = parse_date(start_date)
+            if start_date_obj:
+                queryset = queryset.filter(timestamp__date__gte=start_date_obj)
+
         if end_date:
-            queryset = queryset.filter(timestamp__date__lte=end_date)
+            end_date_obj = parse_date(end_date)
+            if end_date_obj:
+                queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
         return list(queryset.values(
             'weather__name',
