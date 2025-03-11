@@ -1,2 +1,2 @@
-# Django-React-CafeSales-DashBoard
-Django and React + TypeScript + Vite Dashboard Tutorial
+# Django-Next-CafeSales-DashBoard
+Django and Next + TypeScript Dashboard
