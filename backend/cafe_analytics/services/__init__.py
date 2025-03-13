@@ -10,17 +10,25 @@ class BaseService:
     """
 
     @staticmethod
-    def parse_date_param(date_str: Optional[str]) -> Optional[date]:
+    def parse_date_param(date_param: Optional[Union[str, date]]) -> Optional[date]:
         """
-        日付パラメータをstr型からdate型に変換する
-        :param date_str: 日付パラメータ
-        :return: date 型のパラメータ
+        日付パラメータをdate型に変換する
+
+        Args:
+            date_param (str or date, optional): 日付パラメータ
+
+        Returns:
+            Optional[date]: date型のパラメータ
         """
-        if not date_str:
+        if date_param is None:
             return None
+
+        if isinstance(date_param, date):
+            return date_param
+
         try:
-            return parse_date(date_str)
-        except ValueError:
+            return parse_date(date_param)
+        except (ValueError, TypeError):
             return None
 
     @staticmethod

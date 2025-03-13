@@ -27,7 +27,7 @@ class OrderService(BaseService):
         """
         if date_str:
             try:
-                return parse_date(date_str)
+                return BaseService.parse_date_param(date_str)
             except ValueError:
                 return None
         else:
@@ -50,10 +50,13 @@ class OrderService(BaseService):
         return start_date, end_date
 
     @staticmethod
-    def get_orders_in_period(start_date: date, end_date: date) -> QuerySet:
+    def get_orders_in_period(start_date: Optional[Union[str, date]], end_date: Optional[Union[str, date]]) -> QuerySet:
         """指定された期間の注文クエリセットを取得"""
+        start_date_obj = BaseService.parse_date_param(start_date) if not isinstance(start_date, date) else start_date
+        end_date_obj = BaseService.parse_date_param(end_date) if not isinstance(end_date, date) else end_date
+
         return Order.objects.filter(
-            timestamp__date__range=[start_date, end_date]
+            timestamp__date__range=[start_date_obj, end_date_obj]
         ).select_related(
             'order_type',
             'weather',

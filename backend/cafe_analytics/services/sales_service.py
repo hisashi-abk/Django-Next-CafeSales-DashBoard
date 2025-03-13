@@ -15,13 +15,13 @@ class SalesService(BaseService):
     """
 
     @staticmethod
-    def get_sales_summary(start_date: Optional[str] = None, end_date: Optional[str] = None) -> Dict[str, Any]:
+    def get_sales_summary(start_date: Optional[Union[str, date]] = None, end_date: Optional[Union[str, date]] = None) -> Dict[str, Any]:
         """
         基本的な売上サマリーを取得
 
         Args:
-            start_date (str, optional): 開始日の文字列. Defaults to None.
-            end_date (str, optional): 終了日の文字列. Defaults to None.
+            start_date (str or date, optional): 開始日. Defaults to None.
+            end_date (str or date, optional): 終了日. Defaults to None.
 
         Returns:
             Dict[str, Any]: 売上サマリー
@@ -29,12 +29,12 @@ class SalesService(BaseService):
         queryset = Order.objects.all()
 
         if start_date:
-            start_date_obj = parse_date(start_date)
+            start_date_obj = BaseService.parse_date_param(start_date)
             if start_date_obj:
                 queryset = queryset.filter(timestamp__date__gte=start_date_obj)
 
         if end_date:
-            end_date_obj = parse_date(end_date)
+            end_date_obj = BaseService.parse_date_param(end_date)
             if end_date_obj:
                 queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
@@ -49,8 +49,8 @@ class SalesService(BaseService):
     @staticmethod
     def get_period_sales(
         period: str,
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None
+        start_date: Optional[Union[str, date]] = None,
+        end_date: Optional[Union[str, date]] = None
         ) -> List[Dict[str, Any]]:
             """期間別の売上データを取得"""
             trunc_func = {
@@ -62,12 +62,12 @@ class SalesService(BaseService):
             queryset = Order.objects.all()
 
             if start_date:
-                start_date_obj = parse_date(start_date)
+                start_date_obj = BaseService.parse_date_param(start_date)
                 if start_date_obj:
                     queryset = queryset.filter(timestamp__date__gte=start_date_obj)
 
             if end_date:
-                end_date_obj = parse_date(end_date)
+                end_date_obj = BaseService.parse_date_param(end_date)
                 if end_date_obj:
                     queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
@@ -90,19 +90,19 @@ class SalesService(BaseService):
     def get_sales_by_factor(
         factor_field: str,
         factor_name_field: str,
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None
+        start_date: Optional[Union[str, date]] = None,
+        end_date: Optional[Union[str, date]] = None
     ) -> List[Dict[str, Any]]:
         """指定された要素(天気や性別等)別の売上データを取得"""
         queryset = Order.objects.all()
 
         if start_date:
-            start_date_obj = parse_date(start_date)
+            start_date_obj = BaseService.parse_date_param(start_date)
             if start_date_obj:
                 queryset = queryset.filter(timestamp__date__gte=start_date_obj)
 
         if end_date:
-            end_date_obj = parse_date(end_date)
+            end_date_obj = BaseService.parse_date_param(end_date)
             if end_date_obj:
                 queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
@@ -117,19 +117,19 @@ class SalesService(BaseService):
     @staticmethod
     def get_top_categories(
         limit: Optional[int] = 5,
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None
+        start_date: Optional[Union[str, date]] = None,
+        end_date: Optional[Union[str, date]] = None
     ) -> List[Dict[str, Any]]:
         """トップカテゴリーを取得"""
         queryset = OrderItem.objects.all()
 
         if start_date:
-            start_date_obj = parse_date(start_date)
+            start_date_obj = BaseService.parse_date_param(start_date)
             if start_date_obj:
                 queryset = queryset.filter(order__timestamp__date__gte=start_date_obj)
 
         if end_date:
-            end_date_obj = parse_date(end_date)
+            end_date_obj = BaseService.parse_date_param(end_date)
             if end_date_obj:
                 queryset = queryset.filter(order__timestamp__date__lte=end_date_obj)
 
@@ -167,19 +167,19 @@ class SalesService(BaseService):
 
     @staticmethod
     def get_weather_timeslot_analysis(
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None
+        start_date: Optional[Union[str, date]] = None,
+        end_date: Optional[Union[str, date]] = None
     ) -> List[Dict[str, Any]]:
         """天気と時間帯のクロス分析を取得"""
         queryset = Order.objects.all()
 
         if start_date:
-            start_date_obj = parse_date(start_date)
+            start_date_obj = BaseService.parse_date_param(start_date)
             if start_date_obj:
                 queryset = queryset.filter(timestamp__date__gte=start_date_obj)
 
         if end_date:
-            end_date_obj = parse_date(end_date)
+            end_date_obj = BaseService.parse_date_param(end_date)
             if end_date_obj:
                 queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 

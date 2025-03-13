@@ -1,4 +1,4 @@
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Any, Union
 from datetime import date, datetime, timedelta
 
 from cafe_analytics.models import Order
@@ -11,17 +11,21 @@ class DashboardService(BaseService):
     """ダッシュボード表示に必要なデータを提供するサービス"""
 
     @classmethod
-    def get_daily_dashboard(cls, target_date: date) -> Dict[str, Any]:
+    def get_daily_dashboard(cls, target_date: Union[str, date]) -> Dict[str, Any]:
         """デイリーダッシュボード用のデータを取得"""
-        orders = OrderService.get_orders_in_period(target_date, target_date)
-        sales_summary = SalesService.get_sales_summary(target_date, target_date)
+        target_date_obj = cls.parse_date_param(target_date) if not isinstance(target_date, date) else target_date
+        if not target_date_obj:
+            raise ValueError("Invalid date format")
+
+        orders = OrderService.get_orders_in_period(target_date_obj, target_date_obj)
+        sales_summary = SalesService.get_sales_summary(target_date_obj, target_date_obj)
 
         return {
-            'date': target_date,
+            'date': target_date_obj,
             'sales_summary': sales_summary,
             'orders': OrderService.get_orders_summary(orders),
             'takeout_rate': SalesService.calculate_takeout_rate(orders),
-            'popular_items': SalesService.get_top_categories(limit=5, start_date=target_date, end_date=target_date),
+            'popular_items': SalesService.get_top_categories(limit=5, start_date=target_date_obj, end_date=target_date_obj),
             'customer_count': sales_summary['total_orders'],
             'avg_order_value': sales_summary['avg_order_value'],
             'total_discount': sales_summary['total_discount'],
@@ -30,9 +34,13 @@ class DashboardService(BaseService):
         }
 
     @classmethod
-    def get_weekly_dashboard(cls, target_date: date) -> Dict[str, Any]:
+    def get_weekly_dashboard(cls, target_date: Union[str, date]) -> Dict[str, Any]:
         """ウィークリーダッシュボード用のデータを取得"""
-        start_date, end_date = OrderService.get_date_range(target_date, 'week')
+        target_date_obj = cls.parse_date_param(target_date) if not isinstance(target_date, date) else target_date
+        if not target_date_obj:
+            raise ValueError("Invalid date format")
+
+        start_date, end_date = OrderService.get_date_range(target_date_obj, 'week')
         orders = OrderService.get_orders_in_period(start_date, end_date)
         sales_summary = SalesService.get_sales_summary(start_date, end_date)
 
@@ -52,9 +60,13 @@ class DashboardService(BaseService):
         }
 
     @classmethod
-    def get_monthly_dashboard(cls, target_date: date) -> Dict[str, Any]:
+    def get_monthly_dashboard(cls, target_date: Union[str, date]) -> Dict[str, Any]:
         """マンスリーダッシュボード用のデータを取得"""
-        start_date, end_date = OrderService.get_date_range(target_date, 'month')
+        target_date_obj = cls.parse_date_param(target_date) if not isinstance(target_date, date) else target_date
+        if not target_date_obj:
+            raise ValueError("Invalid date format")
+
+        start_date, end_date = OrderService.get_date_range(target_date_obj, 'month')
         orders = OrderService.get_orders_in_period(start_date, end_date)
         sales_summary = SalesService.get_sales_summary(start_date, end_date)
 

@@ -14,19 +14,19 @@ class ProductService(BaseService):
     @staticmethod
     def get_bestsellers(
         limit: int = 10,
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None
+        start_date: Optional[Union[str, date]] = None,
+        end_date: Optional[Union[str, date]] = None
     ) -> List[Dict[str, Any]]:
         """ベストセラー商品を取得"""
         queryset = OrderItem.objects.all()
 
         if start_date:
-            start_date_obj = parse_date(start_date)
+            start_date_obj = BaseService.parse_date_param(start_date)
             if start_date_obj:
                 queryset = queryset.filter(order__timestamp__date__gte=start_date_obj)
 
         if end_date:
-            end_date_obj = parse_date(end_date)
+            end_date_obj = BaseService.parse_date_param(end_date)
             if end_date_obj:
                 queryset = queryset.filter(order__timestamp__date__lte=end_date_obj)
 
@@ -45,8 +45,8 @@ class ProductService(BaseService):
     def get_popular_items_by_type(
         order_type_id: int,
         limit: int = 10,
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None
+        start_date: Optional[Union[str, date]] = None,
+        end_date: Optional[Union[str, date]] = None
     ) -> List[Dict[str, Any]]:
         """指定された注文タイプの人気商品を取得"""
         queryset = OrderItem.objects.filter(
@@ -54,12 +54,12 @@ class ProductService(BaseService):
         )
 
         if start_date:
-            start_date_obj = parse_date(start_date)
+            start_date_obj = BaseService.parse_date_param(start_date)
             if start_date_obj:
                 queryset = queryset.filter(order__timestamp__date__gte=start_date_obj)
 
         if end_date:
-            end_date_obj = parse_date(end_date)
+            end_date_obj = BaseService.parse_date_param(end_date)
             if end_date_obj:
                 queryset = queryset.filter(order__timestamp__date__lte=end_date_obj)
 
@@ -74,8 +74,8 @@ class ProductService(BaseService):
 
     @staticmethod
     def get_dine_in_popular_by_timeslot(
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None
+        start_date: Optional[Union[str, date]] = None,
+        end_date: Optional[Union[str, date]] = None
     ) -> Dict[str, List[Dict[str, Any]]]:
         """店内飲食の時間帯ごとの人気メニューランキングを取得"""
         queryset = OrderItem.objects.filter(
@@ -83,12 +83,12 @@ class ProductService(BaseService):
         )
 
         if start_date:
-            start_date_obj = parse_date(start_date)
+            start_date_obj = BaseService.parse_date_param(start_date)
             if start_date_obj:
                 queryset = queryset.filter(order__timestamp__date__gte=start_date_obj)
 
         if end_date:
-            end_date_obj = parse_date(end_date)
+            end_date_obj = BaseService.parse_date_param(end_date)
             if end_date_obj:
                 queryset = queryset.filter(order__timestamp__date__lte=end_date_obj)
 
@@ -134,8 +134,8 @@ class ProductService(BaseService):
 
     @staticmethod
     def get_discount_analysis(
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None
+        start_date: Optional[Union[str, date]] = None,
+        end_date: Optional[Union[str, date]] = None
     ) -> List[Dict[str, Any]]:
         """割引分析を取得"""
         from cafe_analytics.models import Order
@@ -143,12 +143,12 @@ class ProductService(BaseService):
         queryset = Order.objects.exclude(discount=0)
 
         if start_date:
-            start_date_obj = parse_date(start_date)
+            start_date_obj = BaseService.parse_date_param(start_date)
             if start_date_obj:
                 queryset = queryset.filter(timestamp__date__gte=start_date_obj)
 
         if end_date:
-            end_date_obj = parse_date(end_date)
+            end_date_obj = BaseService.parse_date_param(end_date)
             if end_date_obj:
                 queryset = queryset.filter(timestamp__date__lte=end_date_obj)
 
