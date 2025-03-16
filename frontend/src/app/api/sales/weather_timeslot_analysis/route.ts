@@ -1,6 +1,6 @@
 import { fetchFromBackend } from "@/lib/api-utils"
 
 export async function GET(request: Request) {
-  return fetchFromBackend("dashboard/monthly_sales", request)
+  return fetchFromBackend("sales/weather_timeslot_analysis", request)
 }
 
