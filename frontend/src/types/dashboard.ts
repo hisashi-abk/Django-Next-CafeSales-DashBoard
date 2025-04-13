@@ -1,87 +1,57 @@
 // ダッシュボード関連の型定義
-export interface DailyDashboard {
+export interface DailySalesData {
   date: string
-  sales_summary: SalesSummary
-  orders: Order[]
-  takeout_rate: number
-  popular_items: CategorySales[]
-  customer_count: number
-  avg_order_value: number
-  total_discount: number
-  hourly_sales: {
-    hour: number
-    total_sales: number
-    order_count: number
-  }[]
-  customer_demographics: {
-    gender_distribution: {
-      gender__name: string
-      count: number
-    }[]
-  }
+  total_sales: number
+  order_count: number
+  average_order_value: number
 }
 
-export interface WeeklyDashboard {
+export interface WeeklySalesData {
   week_start: string
   week_end: string
-  sales_summary: SalesSummary
-  weather_distribution: {
-    weather__name: string
-    count: number
-  }[]
-  orders: Order[]
-  takeout_rate: number
-  popular_items: CategorySales[]
-  customer_count: number
-  avg_order_value: number
-  total_discount: number
-  daily_sales_breakdown: {
-    period: string
-    total_sales: number
-    total_orders: number
-    avg_order_value: number
-    total_discount: number
-    net_sales: number
-  }[]
-  customer_demographics: {
-    gender_distribution: {
-      gender__name: string
-      count: number
-    }[]
-  }
+  total_sales: number
+  order_count: number
+  average_order_value: number
 }
 
-export interface MonthlyDashboard {
-  month_start: string
-  month_end: string
-  sales_summary: SalesSummary
-  weather_distribution: {
-    weather__name: string
-    count: number
-  }[]
-  orders: Order[]
-  takeout_rate: number
-  popular_items: CategorySales[]
-  customer_count: number
-  avg_order_value: number
-  total_discount: number
-  weekly_sales_breakdown: {
-    period: string
-    total_sales: number
-    total_orders: number
-    avg_order_value: number
-    total_discount: number
-    net_sales: number
-  }[]
-  customer_demographics: {
-    gender_distribution: {
-      gender__name: string
-      count: number
-    }[]
-  }
+export interface MonthlySalesData {
+  month: string
+  total_sales: number
+  order_count: number
+  average_order_value: number
 }
 
-// 共通型のインポート
-import type { SalesSummary, CategorySales } from "./sales"
-import type { Order } from "./common"
+export interface SalesSummary {
+  total_sales: number
+  total_orders: number
+  average_order_value: number
+  total_items_sold: number
+  total_discount: number
+}
 
+export interface CategorySales {
+  category: string
+  total_sales: number
+  item_count: number
+  percentage: number
+}
+
+export interface SalesByFactor {
+  factor: string
+  total_sales: number
+  order_count: number
+  percentage: number
+}
+
+export interface WeatherTimeslotAnalysis {
+  weather: string
+  morning: number
+  afternoon: number
+  evening: number
+  night: number
+}
+
+export interface DashboardPeriod {
+  type: "daily" | "weekly" | "monthly"
+  label: string
+}
